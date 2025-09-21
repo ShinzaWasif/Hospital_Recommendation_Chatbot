@@ -190,3 +190,732 @@ html {
   background: #9370DB;
   transform: scale(1.1);
 }
+
+
+/* Already existing styles… */
+
+.hospital-list.recommend-box {
+  background-color: #e0f8e9;    /* 🌿 light-green background */
+  border: 2px solid #34c759;    /* 🌿 green border */
+  border-radius: 12px;
+  padding: 10px;
+  margin: 8px 0;
+  transition: background 0.3s ease;
+}
+
+/* Performance Metrics Modal Styles */
+.metrics-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.metrics-modal {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.metrics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.metrics-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #666;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.close-button:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.metrics-content {
+  color: #333;
+}
+
+.metrics-content h3 {
+  color: #6A5ACD;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid #c62828;
+  margin: 10px 0;
+}
+
+.metrics-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.metric-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 3px solid #6A5ACD;
+}
+
+.metric-label {
+  font-weight: 600;
+  color: #444;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.metric-value {
+  font-family: 'Courier New', monospace;
+  background-color: #e9ecef;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #495057;
+  font-weight: 500;
+}
+
+/* Button styling improvements */
+#metricsButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed !important;
+}
+
+/* Responsive design for metrics modal */
+@media (max-width: 768px) {
+  .metrics-modal {
+    width: 95%;
+    padding: 15px;
+    max-height: 85vh;
+  }
+  
+  .metrics-header h2 {
+    font-size: 20px;
+  }
+  
+  .metric-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .metric-value {
+    align-self: flex-end;
+  }
+}
+
+/* Enhanced recommendation box styling */
+.recommend-box {
+  border: 2px solid #6A5ACD !important;
+  background: linear-gradient(135deg, #e0f8e9, #f0f8ff) !important;
+  box-shadow: 0 4px 12px rgba(106, 90, 205, 0.2);
+}
+
+.recommend-box .hospital-card {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid #6A5ACD !important;
+}
+
+
+/* Add these styles to your existing Chatbot.css file */
+
+/* Controls Section Styling */
+.controls-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  background: rgba(21, 28, 42, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.control-group label {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.control-select {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #2a3441;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-select:hover {
+  background: #3a4451;
+  border-color: #6A5ACD;
+}
+
+.control-select:focus {
+  outline: none;
+  border-color: #6A5ACD;
+  box-shadow: 0 0 0 2px rgba(106, 90, 205, 0.2);
+}
+
+/* Action Buttons */
+.action-button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  margin-left: 8px;
+}
+
+.recommend-btn {
+  background: linear-gradient(135deg, #6A5ACD, #8A7FD8);
+  color: white;
+}
+
+.recommend-btn:hover {
+  background: linear-gradient(135deg, #5A4ABD, #7A6FC8);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(106, 90, 205, 0.3);
+}
+
+.metrics-btn {
+  background: linear-gradient(135deg, #FF6B6B, #FF8E8E);
+  color: white;
+}
+
+.metrics-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #FF5B5B, #FF7E7E);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+}
+
+.metrics-btn:disabled {
+  background: #666;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Performance Metrics Modal Styles */
+.metrics-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.metrics-modal {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 900px;
+  width: 95%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalSlideIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.metrics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 3px solid #e9ecef;
+}
+
+.metrics-header h2 {
+  margin: 0;
+  background: linear-gradient(135deg, #6A5ACD, #FF6B6B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.close-button {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 2px solid #dee2e6;
+  font-size: 24px;
+  color: #666;
+  cursor: pointer;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.close-button:hover {
+  background: linear-gradient(135deg, #FF6B6B, #FF8E8E);
+  color: white;
+  border-color: #FF6B6B;
+  transform: rotate(90deg);
+}
+
+/* Metrics Summary Section */
+.metrics-summary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+}
+
+.metrics-summary h3 {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.summary-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 12px 0;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.summary-item span {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.summary-item strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.overall-score strong {
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.metrics-description {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* Error Message */
+.error-message {
+  background: linear-gradient(135deg, #ffebee, #ffcdd2);
+  color: #c62828;
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 5px solid #d32f2f;
+  margin: 16px 0;
+  box-shadow: 0 2px 8px rgba(211, 47, 47, 0.15);
+}
+
+/* Metrics Grid */
+.metrics-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Metric Sections */
+.metric-section {
+  background: linear-gradient(145deg, #f8f9fa, #ffffff);
+  border-radius: 12px;
+  padding: 16px;
+  border-left: 5px solid #6A5ACD;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.metric-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.metric-section.nested {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-left-color: #28a745;
+  margin-left: 12px;
+}
+
+.metric-section-title {
+  color: #6A5ACD;
+  font-size: 16px;
+  margin: 0 0 12px 0;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.metric-section-title:before {
+  content: '📊';
+  font-size: 18px;
+}
+
+.metric-subsection {
+  margin-left: 8px;
+}
+
+/* Individual Metric Items */
+.metric-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  margin: 8px 0;
+  border-left: 3px solid #dee2e6;
+  transition: all 0.2s ease;
+}
+
+.metric-item:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-left-color: #6A5ACD;
+}
+
+.metric-label {
+  font-weight: 600;
+  color: #495057;
+  font-size: 13px;
+  text-transform: capitalize;
+  flex: 1;
+}
+
+.metric-value {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  background: #e9ecef;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #495057;
+  font-weight: 600;
+  font-size: 12px;
+  min-width: 80px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+/* Score-based color coding */
+.metric-value.score-excellent {
+  background: linear-gradient(135deg, #d4edda, #c3e6cb);
+  color: #155724;
+  border: 1px solid #b8dabc;
+}
+
+.metric-value.score-good {
+  background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+  color: #856404;
+  border: 1px solid #ffeaa7;
+}
+
+.metric-value.score-poor {
+  background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Special styling for specific metrics */
+.metric-item:has(.metric-label:contains("OVERALL")) {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  border-left-color: #2196f3;
+  font-weight: 600;
+}
+
+.metric-item:has(.metric-label:contains("RELEVANCE")) {
+  border-left-color: #007bff;
+}
+
+.metric-item:has(.metric-label:contains("DIVERSITY")) {
+  border-left-color: #fd7e14;
+}
+
+.metric-item:has(.metric-label:contains("COVERAGE")) {
+  border-left-color: #28a745;
+}
+
+.metric-item:has(.metric-label:contains("FEE")) {
+  border-left-color: #6610f2;
+}
+
+.metric-item:has(.metric-label:contains("QUERY")) {
+  border-left-color: #dc3545;
+}
+
+/* Enhanced recommendation box styling */
+.recommend-box {
+  border: 2px solid #6A5ACD !important;
+  background: linear-gradient(135deg, #e0f8e9, #f0f8ff) !important;
+  box-shadow: 0 4px 12px rgba(106, 90, 205, 0.2);
+  position: relative;
+}
+
+.recommend-box::before {
+  content: '🎯 RECOMMENDATIONS';
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background: #6A5ACD;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.recommend-box .hospital-card {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid #6A5ACD !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.recommend-box .hospital-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: transparent #6A5ACD transparent transparent;
+}
+
+/* Responsive design for metrics modal */
+@media (max-width: 768px) {
+  .metrics-modal {
+    width: 98%;
+    height: 90vh;
+    margin: 5vh auto;
+    padding: 16px;
+  }
+  
+  .metrics-header h2 {
+    font-size: 20px;
+  }
+  
+  .controls-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  
+  .control-group {
+    justify-content: space-between;
+  }
+  
+  .summary-stats {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .metric-section {
+    margin: 8px 0;
+    padding: 12px;
+  }
+  
+  .metric-section-title {
+    font-size: 14px;
+  }
+  
+  .metric-item {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 8px;
+  }
+  
+  .metric-value {
+    align-self: flex-end;
+    min-width: 60px;
+  }
+  
+  .action-button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Input container responsive design */
+@media (max-width: 1024px) {
+  #chatInputContainer {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .controls-section {
+    width: 100%;
+    order: -1;
+  }
+  
+  #chatInput {
+    flex: 1;
+    min-width: 250px;
+  }
+}
+
+/* Loading states */
+.metrics-btn.loading {
+  position: relative;
+  color: transparent;
+}
+
+.metrics-btn.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border: 2px solid transparent;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Tooltip for better UX */
+.control-select:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Custom scrollbar for metrics modal */
+.metrics-modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.metrics-modal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.metrics-modal::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #6A5ACD, #8A7FD8);
+  border-radius: 4px;
+}
+
+.metrics-modal::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5A4ABD, #7A6FC8);
+}
