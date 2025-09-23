@@ -20,12 +20,19 @@ import threading
 import inflect 
 import pyttsx3
 from collections import Counter
+import pandas as pd
+
 
 # NEW ML imports
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
-from sklearn.cluster import KMeans
+from sklearn.neighbors import NearestNeighbors
+from sklearn.preprocessing import LabelEncoder
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import precision_score, recall_score, f1_score   # <-- add this line
+
+
 
 app = Flask(__name__)
 CORS(app)
@@ -222,499 +229,74 @@ def speak(hospitals, user_fee_range=None, use_offline_tts=True):
 
     threading.Thread(target=tts_worker).start()
 
-# ----------------- Recommender section (TF-IDF + kNN + clustering) -----------------
-
-def make_text_by_basis(h, basis="auto"):
-    if basis == "specialization":
-        return (h.get("Specialization", "") or "").lower()
-    if basis == "city":
-        return (h.get("City", "") or "").lower()
-    parts = []
-    for key in ["Name", "City", "Province", "Specialization", "Address"]:
-        val = h.get(key, "")
-        if isinstance(val, str) and val.strip():
-            parts.append(val.strip())
-    parts.append(str(h.get("Fees", "")))
-    return " ".join(parts).lower()
-
-_BASIS_LIST = ["auto", "specialization", "city"]
-_tfidf_store = {}       # basis -> (vectorizer, tfidf_matrix)
-_nn_store = {}          # basis -> NearestNeighbors fitted (k-NN)
-_kmeans_store = {}      # basis -> KMeans fitted
-_cluster_assignments = {}  # basis -> cluster ids
-
-# clustering hyperparam
-_DEFAULT_N_CLUSTERS = 8
-
-for basis in _BASIS_LIST:
-    corpus = [make_text_by_basis(h, basis=basis) for h in hospital_data]
-    vec = TfidfVectorizer(stop_words="english")
-    if len(corpus) == 0:
-        mat = None
-    else:
-        mat = vec.fit_transform(corpus)
-    _tfidf_store[basis] = (vec, mat)
-
-    # fit NearestNeighbors (k-NN) using cosine metric
-    if mat is not None and mat.shape[0] > 0:
-        try:
-            nn = NearestNeighbors(n_neighbors=min(20, mat.shape[0]), metric="cosine", algorithm="brute")
-            nn.fit(mat)
-            _nn_store[basis] = nn
-        except Exception as e:
-            print(f"Warning: could not fit NearestNeighbors for basis={basis}: {e}")
-            _nn_store[basis] = None
-        # fit KMeans clustering (optional)
-        try:
-            n_clusters = min(_DEFAULT_N_CLUSTERS, max(2, mat.shape[0] // 4))
-            kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
-            kmeans.fit(mat)
-            _kmeans_store[basis] = kmeans
-            _cluster_assignments[basis] = kmeans.labels_
-        except Exception as e:
-            print(f"Warning: could not fit KMeans for basis={basis}: {e}")
-            _kmeans_store[basis] = None
-            _cluster_assignments[basis] = None
-    else:
-        _nn_store[basis] = None
-        _kmeans_store[basis] = None
-        _cluster_assignments[basis] = None
-
-def recommend_hospitals_by_basis(history, basis="auto", top_k=5, filter_city=None, fee_range=None, method="cosine"):
+# ---------- 2. Endpoint: supervised evaluation ----------
+@app.route("/metrics", methods=["GET"])
+def metrics():
     """
-    history: list of strings (user search history)
-    basis: "auto" | "specialization" | "city"
-    method: "cosine" | "knn" | "cluster"
+    Reads labels.csv -> query,hospital_index,label
+    Computes Precision / Recall / F1
     """
+    df = pd.read_csv("labels3.csv")   # file placed alongside app.py
+    y_true = df["label"].values
+    y_pred = np.ones_like(y_true)    # naive baseline: predict 1 for every record
+    precision = precision_score(y_true, y_pred, zero_division=0)
+    recall = recall_score(y_true, y_pred, zero_division=0)
+    f1 = f1_score(y_true, y_pred, zero_division=0)
+    return jsonify({
+        "precision": round(precision, 3),
+        "recall": round(recall, 3),
+        "f1": round(f1, 3)
+    })
+
+
+# ---------- 3. KNN recommender by city & specialization ----------
+def knn_recommend(history, top_k=5):
     if not history:
         return []
-    basis = basis if basis in _BASIS_LIST else "auto"
-    vectorizer, tfidf_matrix = _tfidf_store.get(basis, (None, None))
-    if tfidf_matrix is None:
+
+    # correct keys
+    X = np.array([
+        [h.get("City", "").lower(), h.get("Specialization", "").lower()]
+        for h in hospital_data
+    ])
+
+    city_enc = LabelEncoder().fit(X[:, 0])
+    spec_enc = LabelEncoder().fit(X[:, 1])
+    X_enc = np.column_stack([
+        city_enc.transform(X[:, 0]),
+        spec_enc.transform(X[:, 1])
+    ])
+
+    # most frequent city/spec from user history text
+    tokens = " ".join(history).lower().split()
+    city_counts = Counter([c for c in X[:, 0] if c in tokens])
+    spec_counts = Counter([s for s in X[:, 1] if s in tokens])
+    if not city_counts or not spec_counts:
         return []
-    user_doc = " ".join(history).lower()
-    user_vec = vectorizer.transform([user_doc])
 
-    # choose method
-    indices = []
-    if method == "knn":
-        nn = _nn_store.get(basis)
-        if nn is None:
-            sims = cosine_similarity(user_vec, tfidf_matrix).flatten()
-            indices = sims.argsort()[::-1][:top_k].tolist()
-        else:
-            try:
-                distances, neigh_idx = nn.kneighbors(user_vec, n_neighbors=min(top_k, tfidf_matrix.shape[0]))
-                # kneighbors returns distances based on cosine distance; neigh_idx is neighbor indices
-                indices = neigh_idx.flatten().tolist()
-            except Exception:
-                sims = cosine_similarity(user_vec, tfidf_matrix).flatten()
-                indices = sims.argsort()[::-1][:top_k].tolist()
+    fav_city = city_counts.most_common(1)[0][0]
+    fav_spec = spec_counts.most_common(1)[0][0]
+    target = np.array([
+        city_enc.transform([fav_city])[0],
+        spec_enc.transform([fav_spec])[0]
+    ]).reshape(1, -1)
 
-    elif method == "cluster":
-        kmeans = _kmeans_store.get(basis)
-        if kmeans is None:
-            sims = cosine_similarity(user_vec, tfidf_matrix).flatten()
-            indices = sims.argsort()[::-1][:top_k].tolist()
-        else:
-            try:
-                user_cluster = kmeans.predict(user_vec)[0]
-                cluster_ids = [i for i, lbl in enumerate(_cluster_assignments[basis]) if lbl == user_cluster]
-                if not cluster_ids:
-                    sims = cosine_similarity(user_vec, tfidf_matrix).flatten()
-                    indices = sims.argsort()[::-1][:top_k].tolist()
-                else:
-                    # compute sims but only for cluster members
-                    cluster_mat = tfidf_matrix[cluster_ids]
-                    sims = cosine_similarity(user_vec, cluster_mat).flatten()
-                    ranked_pos = sims.argsort()[::-1][:top_k]
-                    indices = [cluster_ids[i] for i in ranked_pos]
-            except Exception:
-                sims = cosine_similarity(user_vec, tfidf_matrix).flatten()
-                indices = sims.argsort()[::-1][:top_k].tolist()
-    else:  # cosine default
-        sims = cosine_similarity(user_vec, tfidf_matrix).flatten()
-        indices = sims.argsort()[::-1][:top_k].tolist()
+    knn = KNeighborsClassifier(n_neighbors=min(top_k, len(X_enc)))
+    knn.fit(X_enc, range(len(hospital_data)))
+    idxs = knn.kneighbors(target, return_distance=False).flatten().tolist()
 
-    # apply optional filters and build final list
-    final = []
-    for idx in indices:
-        if len(final) >= top_k:
-            break
-        h = hospital_data[idx]
-        if filter_city and h.get("City", "").strip().lower() != filter_city.strip().lower():
-            continue
-        if fee_range:
-            try:
-                min_fee, max_fee = fee_range
-                hospital_fee_str = h.get("Fees", "")
-                m = re.search(r"(\d+)\s*-\s*(\d+)", str(hospital_fee_str))
-                if m:
-                    hmin, hmax = int(m.group(1)), int(m.group(2))
-                else:
-                    m2 = re.search(r"(\d+)", str(hospital_fee_str))
-                    if m2:
-                        hmin = hmax = int(m2.group(1))
-                    else:
-                        continue
-                if not (hmax >= min_fee and hmin <= max_fee):
-                    continue
-            except Exception:
-                continue
-        final.append(h)
+    return [hospital_data[i] for i in idxs[:top_k]]
 
-    # if not enough after filtering, fill with top from cosine ranking
-    if len(final) < top_k:
-        sims_all = cosine_similarity(user_vec, tfidf_matrix).flatten()
-        ranked_all = sims_all.argsort()[::-1]
-        for idx in ranked_all:
-            if len(final) >= top_k:
-                break
-            h = hospital_data[idx]
-            if h in final:
-                continue
-            if filter_city and h.get("City", "").strip().lower() != filter_city.strip().lower():
-                continue
-            if fee_range:
-                try:
-                    min_fee, max_fee = fee_range
-                    hospital_fee_str = h.get("Fees", "")
-                    m = re.search(r"(\d+)\s*-\s*(\d+)", str(hospital_fee_str))
-                    if m:
-                        hmin, hmax = int(m.group(1)), int(m.group(2))
-                    else:
-                        m2 = re.search(r"(\d+)", str(hospital_fee_str))
-                        if m2:
-                            hmin = hmax = int(m2.group(1))
-                        else:
-                            continue
-                    if not (hmax >= min_fee and hmin <= max_fee):
-                        continue
-                except Exception:
-                    continue
-            final.append(h)
-    return final[:top_k]
-
-# ==================== RECOMMENDATION-BASED PERFORMANCE METRICS ====================
-
-def calculate_recommendation_performance_metrics(history, basis="auto", method="cosine", top_k=5):
+@app.route("/recommend_knn_city_spec", methods=["POST"])
+def recommend_knn_city_spec():
     """
-    Calculate performance metrics based on actual recommendations generated
-    This measures how well the recommendation system performs for the given user history
+    Body: { "history": ["query1","query2",...], "top_k": 5 }
     """
-    if not history:
-        return {"error": "No search history provided for recommendation metrics"}
-    
-    try:
-        # Step 1: Generate recommendations using the selected method
-        recommendations = recommend_hospitals_by_basis(history, basis=basis, top_k=top_k, method=method)
-        
-        if not recommendations:
-            return {"error": "No recommendations could be generated from the provided history"}
-        
-        # Step 2: Get the TF-IDF components for analysis
-        vectorizer, tfidf_matrix = _tfidf_store.get(basis, (None, None))
-        if tfidf_matrix is None:
-            return {"error": f"No TF-IDF matrix available for basis: {basis}"}
-        
-        # Step 3: Convert user history to vector
-        user_doc = " ".join(history).lower()
-        user_vec = vectorizer.transform([user_doc])
-        
-        # Step 4: Find indices of recommended hospitals in the original dataset
-        rec_indices = []
-        for rec in recommendations:
-            for i, hospital in enumerate(hospital_data):
-                if (hospital.get("Name") == rec.get("Name") and 
-                    hospital.get("City") == rec.get("City")):
-                    rec_indices.append(i)
-                    break
-        
-        if not rec_indices:
-            return {"error": "Could not match recommendations to hospital database indices"}
-        
-        # Step 5: Calculate recommendation quality metrics
-        
-        # 5.1 RELEVANCE METRICS - How similar are recommendations to user's history
-        rec_vectors = tfidf_matrix[rec_indices]
-        similarities = cosine_similarity(user_vec, rec_vectors).flatten()
-        
-        relevance_metrics = {
-            "average_similarity": float(np.mean(similarities)),
-            "max_similarity": float(np.max(similarities)),
-            "min_similarity": float(np.min(similarities)),
-            "similarity_std": float(np.std(similarities))
-        }
-        
-        # 5.2 DIVERSITY METRICS - How different recommendations are from each other
-        if len(rec_indices) > 1:
-            rec_sim_matrix = cosine_similarity(rec_vectors)
-            # Get upper triangle excluding diagonal
-            upper_triangle = np.triu(rec_sim_matrix, k=1)
-            non_zero_similarities = upper_triangle[upper_triangle > 0]
-            
-            diversity_metrics = {
-                "avg_inter_recommendation_similarity": float(np.mean(non_zero_similarities)),
-                "diversity_score": float(1.0 - np.mean(non_zero_similarities)),  # Higher = more diverse
-                "max_inter_similarity": float(np.max(non_zero_similarities)),
-                "min_inter_similarity": float(np.min(non_zero_similarities))
-            }
-        else:
-            diversity_metrics = {
-                "avg_inter_recommendation_similarity": 0.0,
-                "diversity_score": 1.0,
-                "max_inter_similarity": 0.0,
-                "min_inter_similarity": 0.0
-            }
-        
-        # 5.3 COVERAGE METRICS - How well recommendations cover different aspects
-        unique_cities = len(set([rec.get("City", "").lower() for rec in recommendations if rec.get("City")]))
-        unique_specializations = len(set([rec.get("Specialization", "").lower() for rec in recommendations if rec.get("Specialization")]))
-        unique_provinces = len(set([rec.get("Province", "").lower() for rec in recommendations if rec.get("Province")]))
-        
-        total_cities = len(set([h.get("City", "").lower() for h in hospital_data if h.get("City")]))
-        total_specializations = len(set([h.get("Specialization", "").lower() for h in hospital_data if h.get("Specialization")]))
-        total_provinces = len(set([h.get("Province", "").lower() for h in hospital_data if h.get("Province")]))
-        
-        coverage_metrics = {
-            "unique_cities_in_recommendations": unique_cities,
-            "unique_specializations_in_recommendations": unique_specializations,
-            "unique_provinces_in_recommendations": unique_provinces,
-            "city_coverage_ratio": float(unique_cities / max(1, total_cities)),
-            "specialization_coverage_ratio": float(unique_specializations / max(1, total_specializations)),
-            "province_coverage_ratio": float(unique_provinces / max(1, total_provinces))
-        }
-        
-        # 5.4 FEE ANALYSIS METRICS
-        fee_ranges = []
-        fee_values = []
-        for rec in recommendations:
-            fee_str = str(rec.get("Fees", ""))
-            # Try to extract fee ranges like "30000-50000"
-            range_match = re.search(r"(\d+)\s*-\s*(\d+)", fee_str)
-            if range_match:
-                min_fee = int(range_match.group(1))
-                max_fee = int(range_match.group(2))
-                avg_fee = (min_fee + max_fee) / 2
-                fee_ranges.append((min_fee, max_fee))
-                fee_values.append(avg_fee)
-            else:
-                # Try single value
-                single_match = re.search(r"(\d+)", fee_str)
-                if single_match:
-                    fee_val = int(single_match.group(1))
-                    fee_values.append(fee_val)
-                    fee_ranges.append((fee_val, fee_val))
-        
-        fee_metrics = {}
-        if fee_values:
-            fee_metrics = {
-                "average_fee": float(np.mean(fee_values)),
-                "fee_std": float(np.std(fee_values)),
-                "min_fee": float(np.min(fee_values)),
-                "max_fee": float(np.max(fee_values)),
-                "fee_coefficient_variation": float(np.std(fee_values) / max(1, np.mean(fee_values))),
-                "recommendations_with_fee_info": len(fee_values)
-            }
-        else:
-            fee_metrics = {
-                "average_fee": 0.0,
-                "fee_std": 0.0,
-                "min_fee": 0.0,
-                "max_fee": 0.0,
-                "fee_coefficient_variation": 0.0,
-                "recommendations_with_fee_info": 0
-            }
-        
-        # 5.5 QUERY MATCHING METRICS - How well recommendations match search terms
-        query_terms = set()
-        for query in history:
-            query_terms.update([term.lower() for term in query.split() if len(term) > 2])
-        
-        matching_recs = 0
-        total_matches = 0
-        
-        for rec in recommendations:
-            rec_text = " ".join([
-                str(rec.get("Name", "")),
-                str(rec.get("City", "")),
-                str(rec.get("Specialization", "")),
-                str(rec.get("Address", "")),
-                str(rec.get("Province", ""))
-            ]).lower()
-            
-            rec_terms = set([term.lower() for term in rec_text.split() if len(term) > 2])
-            matches = len(query_terms.intersection(rec_terms))
-            
-            if matches > 0:
-                matching_recs += 1
-                total_matches += matches
-        
-        query_matching_metrics = {
-            "recommendations_matching_query": matching_recs,
-            "query_match_ratio": float(matching_recs / len(recommendations)),
-            "average_term_matches_per_recommendation": float(total_matches / max(1, len(recommendations))),
-            "total_unique_query_terms": len(query_terms)
-        }
-        
-        # 5.6 METHOD-SPECIFIC METRICS
-        method_specific_metrics = {
-            "recommendation_method": method,
-            "basis_used": basis,
-            "total_hospitals_in_dataset": len(hospital_data),
-            "recommendations_generated": len(recommendations),
-            "search_history_queries": len(history)
-        }
-        
-        # If using clustering method, add cluster info
-        if method == "cluster" and basis in _kmeans_store and _kmeans_store[basis] is not None:
-            try:
-                kmeans = _kmeans_store[basis]
-                user_cluster = kmeans.predict(user_vec)[0]
-                cluster_size = len([i for i, lbl in enumerate(_cluster_assignments[basis]) if lbl == user_cluster])
-                
-                method_specific_metrics.update({
-                    "user_predicted_cluster": int(user_cluster),
-                    "user_cluster_size": cluster_size,
-                    "total_clusters": len(set(_cluster_assignments[basis]))
-                })
-            except Exception:
-                pass
-        
-        # 5.7 OVERALL RECOMMENDATION SCORE
-        # Composite score combining relevance, diversity, and coverage
-        relevance_score = relevance_metrics["average_similarity"]
-        diversity_score = diversity_metrics["diversity_score"]
-        coverage_score = (coverage_metrics["city_coverage_ratio"] + 
-                         coverage_metrics["specialization_coverage_ratio"]) / 2
-        query_match_score = query_matching_metrics["query_match_ratio"]
-        
-        overall_score = (
-            0.4 * relevance_score +      # 40% weight to relevance
-            0.25 * diversity_score +     # 25% weight to diversity
-            0.2 * coverage_score +       # 20% weight to coverage
-            0.15 * query_match_score     # 15% weight to query matching
-        )
-        
-        overall_metrics = {
-            "overall_recommendation_score": float(overall_score),
-            "relevance_component": float(0.4 * relevance_score),
-            "diversity_component": float(0.25 * diversity_score),
-            "coverage_component": float(0.2 * coverage_score),
-            "query_matching_component": float(0.15 * query_match_score)
-        }
-        
-        # Combine all metrics
-        complete_metrics = {
-            "model_type": f"Recommendation Performance Analysis",
-            "method": method,
-            "basis": basis,
-            "timestamp": time.time(),
-            "overall_metrics": overall_metrics,
-            "relevance_metrics": relevance_metrics,
-            "diversity_metrics": diversity_metrics,
-            "coverage_metrics": coverage_metrics,
-            "fee_analysis": fee_metrics,
-            "query_matching": query_matching_metrics,
-            "method_specific": method_specific_metrics
-        }
-        
-        return complete_metrics
-        
-    except Exception as e:
-        return {"error": f"Error calculating recommendation performance metrics: {str(e)}"}
-
-@app.route("/recommend", methods=["POST"])
-def recommend_route():
     data = request.get_json() or {}
-    history = data.get("history", []) or []
-    basis = data.get("basis", "auto")
-    top_k = int(data.get("top_k", 5))
-    method = data.get("method", "cosine")  # "cosine" | "knn" | "cluster"
-    filter_city = data.get("filter_city", None)
-    fee_range = None
-    if "fee_range" in data and isinstance(data.get("fee_range"), (list, tuple)) and len(data.get("fee_range")) == 2:
-        try:
-            fee_range = (int(data["fee_range"][0]), int(data["fee_range"][1]))
-        except Exception:
-            fee_range = None
-
-    results = recommend_hospitals_by_basis(history, basis=basis, top_k=top_k, filter_city=filter_city, fee_range=fee_range, method=method)
-    return jsonify({"recommendations": results})
-
-@app.route("/recommend_metrics", methods=["GET"])
-def recommend_metrics():
-    info = {}
-    for basis in _BASIS_LIST:
-        vec, mat = _tfidf_store.get(basis, (None, None))
-        info[basis] = {
-            "n_hospitals": 0 if mat is None else int(mat.shape[0]),
-            "n_features": 0 if mat is None else int(mat.shape[1]),
-            "has_knn": basis in _nn_store and _nn_store[basis] is not None,
-            "has_kmeans": basis in _kmeans_store and _kmeans_store[basis] is not None,
-        }
-    return jsonify(info)
-
-# ==================== RECOMMENDATION PERFORMANCE METRICS ENDPOINT ====================
-
-@app.route("/performance_metrics", methods=["POST"])
-def performance_metrics():
-    """Get performance metrics for recommendations based on user's search history"""
-    data = request.get_json() or {}
-    
-    # Get user search history
     history = data.get("history", [])
-    basis = data.get("basis", "auto")
-    method = data.get("method", "cosine")
-    top_k = int(data.get("top_k", 5))
-    
-    # Validate inputs
-    if not history:
-        return jsonify({
-            "status": "error",
-            "error": "No search history provided. Please search for some hospitals first to generate performance metrics."
-        }), 400
-    
-    if basis not in _BASIS_LIST:
-        return jsonify({
-            "status": "error",
-            "error": f"Invalid basis '{basis}'. Must be one of: {_BASIS_LIST}"
-        }), 400
-    
-    if method not in ["cosine", "knn", "cluster"]:
-        return jsonify({
-            "status": "error", 
-            "error": f"Invalid method '{method}'. Must be one of: cosine, knn, cluster"
-        }), 400
-    
-    try:
-        # Calculate recommendation-based performance metrics
-        metrics = calculate_recommendation_performance_metrics(
-            history=history, 
-            basis=basis, 
-            method=method, 
-            top_k=top_k
-        )
-        
-        if "error" in metrics:
-            return jsonify({
-                "status": "error",
-                "error": metrics["error"]
-            }), 500
-        
-        return jsonify({
-            "status": "success",
-            "metrics": metrics,
-            "message": f"Performance metrics calculated for {len(history)} search queries using {method} method on {basis} basis"
-        })
-    
-    except Exception as e:
-        return jsonify({
-            "status": "error",
-            "error": f"Unexpected error calculating performance metrics: {str(e)}"
-        }), 500
-
-print("=== Recommender: TF-IDF + k-NN + KMeans prepared for bases:", _BASIS_LIST)
+    k = int(data.get("top_k", 5))
+    recs = knn_recommend(history, top_k=k)
+    return jsonify({"recommendations": recs})
 
 @app.route("/chatbot", methods=["POST"])
 def chatbot():

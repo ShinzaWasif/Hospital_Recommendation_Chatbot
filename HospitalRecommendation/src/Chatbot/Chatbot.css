@@ -919,3 +919,18 @@ button:active {
 .metrics-modal::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #5A4ABD, #7A6FC8);
 }
+
+
+/* my extra css */
+
+.recommendation-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #6A5ACD;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+}

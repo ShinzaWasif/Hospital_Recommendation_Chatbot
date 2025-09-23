@@ -1,0 +1,2131 @@
+query,hospital_id,hospital_name,label,pred
+Multi-Disciplinary Rawalpindi,1,Pak Emirates Military Hospital (PEMH),1,1
+Multi-Disciplinary Rawalpindi,2,MedAsk Tours,0,1
+Multi-Disciplinary Rawalpindi,3,Agha Khan University Hospital,0,1
+Multi-Disciplinary Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+Multi-Disciplinary Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+Multi-Disciplinary Rawalpindi,6,Shifa International,0,1
+Multi-Disciplinary Rawalpindi,7,E-Shifa,0,1
+Multi-Disciplinary Rawalpindi,8,All Medical Centre,0,1
+Multi-Disciplinary Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+Multi-Disciplinary Rawalpindi,10,Rehman Medical Institute,0,1
+Multi-Disciplinary Rawalpindi,11,Hameed Latif Hospital,0,1
+Multi-Disciplinary Rawalpindi,12,Hearts International,0,1
+Multi-Disciplinary Rawalpindi,13,Doctors Hospital,0,1
+Multi-Disciplinary Rawalpindi,14,Kulsum International Hospital,0,1
+Multi-Disciplinary Rawalpindi,15,Medikay Cardiac Center,0,1
+Multi-Disciplinary Rawalpindi,16,Bahria International Hospital,0,1
+Multi-Disciplinary Rawalpindi,17,MMC General Hospital,0,1
+Multi-Disciplinary Rawalpindi,18,Northwest General Hospital,0,1
+Multi-Disciplinary Rawalpindi,19,South City Hospital,0,1
+Multi-Disciplinary Rawalpindi,20,Tabba Heart Institute,0,1
+Multi-Disciplinary Rawalpindi,21,Irfan General Hospital,0,1
+Multi-Disciplinary Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+Multi-Disciplinary Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+Multi-Disciplinary Rawalpindi,24,Hair Transplant Institute,0,1
+Multi-Disciplinary Rawalpindi,25,Cosmetic Expert Clinic,0,1
+Multi-Disciplinary Rawalpindi,26,Concept Fertility Clinic,0,1
+Multi-Disciplinary Rawalpindi,27,NIBD & BMT,0,1
+Multi-Disciplinary Rawalpindi,28,Prime Teaching Hospital,0,1
+Multi-Disciplinary Rawalpindi,29,Horizon,0,1
+Multi-Disciplinary Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+Medical Rawalpindi,1,Pak Emirates Military Hospital (PEMH),0,1
+Medical Rawalpindi,2,MedAsk Tours,1,1
+Medical Rawalpindi,3,Agha Khan University Hospital,0,1
+Medical Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+Medical Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+Medical Rawalpindi,6,Shifa International,0,1
+Medical Rawalpindi,7,E-Shifa,0,1
+Medical Rawalpindi,8,All Medical Centre,0,1
+Medical Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+Medical Rawalpindi,10,Rehman Medical Institute,0,1
+Medical Rawalpindi,11,Hameed Latif Hospital,0,1
+Medical Rawalpindi,12,Hearts International,0,1
+Medical Rawalpindi,13,Doctors Hospital,0,1
+Medical Rawalpindi,14,Kulsum International Hospital,0,1
+Medical Rawalpindi,15,Medikay Cardiac Center,0,1
+Medical Rawalpindi,16,Bahria International Hospital,0,1
+Medical Rawalpindi,17,MMC General Hospital,0,1
+Medical Rawalpindi,18,Northwest General Hospital,0,1
+Medical Rawalpindi,19,South City Hospital,0,1
+Medical Rawalpindi,20,Tabba Heart Institute,0,1
+Medical Rawalpindi,21,Irfan General Hospital,0,1
+Medical Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+Medical Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+Medical Rawalpindi,24,Hair Transplant Institute,0,1
+Medical Rawalpindi,25,Cosmetic Expert Clinic,0,1
+Medical Rawalpindi,26,Concept Fertility Clinic,0,1
+Medical Rawalpindi,27,NIBD & BMT,0,1
+Medical Rawalpindi,28,Prime Teaching Hospital,0,1
+Medical Rawalpindi,29,Horizon,0,1
+Medical Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+Tourism Rawalpindi,1,Pak Emirates Military Hospital (PEMH),0,1
+Tourism Rawalpindi,2,MedAsk Tours,1,1
+Tourism Rawalpindi,3,Agha Khan University Hospital,0,1
+Tourism Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+Tourism Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+Tourism Rawalpindi,6,Shifa International,0,1
+Tourism Rawalpindi,7,E-Shifa,0,1
+Tourism Rawalpindi,8,All Medical Centre,0,1
+Tourism Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+Tourism Rawalpindi,10,Rehman Medical Institute,0,1
+Tourism Rawalpindi,11,Hameed Latif Hospital,0,1
+Tourism Rawalpindi,12,Hearts International,0,1
+Tourism Rawalpindi,13,Doctors Hospital,0,1
+Tourism Rawalpindi,14,Kulsum International Hospital,0,1
+Tourism Rawalpindi,15,Medikay Cardiac Center,0,1
+Tourism Rawalpindi,16,Bahria International Hospital,0,1
+Tourism Rawalpindi,17,MMC General Hospital,0,1
+Tourism Rawalpindi,18,Northwest General Hospital,0,1
+Tourism Rawalpindi,19,South City Hospital,0,1
+Tourism Rawalpindi,20,Tabba Heart Institute,0,1
+Tourism Rawalpindi,21,Irfan General Hospital,0,1
+Tourism Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+Tourism Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+Tourism Rawalpindi,24,Hair Transplant Institute,0,1
+Tourism Rawalpindi,25,Cosmetic Expert Clinic,0,1
+Tourism Rawalpindi,26,Concept Fertility Clinic,0,1
+Tourism Rawalpindi,27,NIBD & BMT,0,1
+Tourism Rawalpindi,28,Prime Teaching Hospital,0,1
+Tourism Rawalpindi,29,Horizon,0,1
+Tourism Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+Cardiology Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Cardiology Karachi,2,MedAsk Tours,0,1
+Cardiology Karachi,3,Agha Khan University Hospital,1,1
+Cardiology Karachi,4,Shoukat Khanum M Hospital,0,1
+Cardiology Karachi,5,Shoukat Khanum M Hospital,0,1
+Cardiology Karachi,6,Shifa International,0,1
+Cardiology Karachi,7,E-Shifa,0,1
+Cardiology Karachi,8,All Medical Centre,0,1
+Cardiology Karachi,9,Quaid-e-Azam International Hospital,0,1
+Cardiology Karachi,10,Rehman Medical Institute,0,1
+Cardiology Karachi,11,Hameed Latif Hospital,0,1
+Cardiology Karachi,12,Hearts International,0,1
+Cardiology Karachi,13,Doctors Hospital,0,1
+Cardiology Karachi,14,Kulsum International Hospital,0,1
+Cardiology Karachi,15,Medikay Cardiac Center,0,1
+Cardiology Karachi,16,Bahria International Hospital,0,1
+Cardiology Karachi,17,MMC General Hospital,0,1
+Cardiology Karachi,18,Northwest General Hospital,0,1
+Cardiology Karachi,19,South City Hospital,1,1
+Cardiology Karachi,20,Tabba Heart Institute,1,1
+Cardiology Karachi,21,Irfan General Hospital,0,1
+Cardiology Karachi,22,Dr. Zia uddin Hospital,0,1
+Cardiology Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Cardiology Karachi,24,Hair Transplant Institute,0,1
+Cardiology Karachi,25,Cosmetic Expert Clinic,0,1
+Cardiology Karachi,26,Concept Fertility Clinic,0,1
+Cardiology Karachi,27,NIBD & BMT,0,1
+Cardiology Karachi,28,Prime Teaching Hospital,0,1
+Cardiology Karachi,29,Horizon,0,1
+Cardiology Karachi,30,Dr. Zia uddin Hospital,0,1
+Dental Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Dental Karachi,2,MedAsk Tours,0,1
+Dental Karachi,3,Agha Khan University Hospital,1,1
+Dental Karachi,4,Shoukat Khanum M Hospital,0,1
+Dental Karachi,5,Shoukat Khanum M Hospital,0,1
+Dental Karachi,6,Shifa International,0,1
+Dental Karachi,7,E-Shifa,0,1
+Dental Karachi,8,All Medical Centre,0,1
+Dental Karachi,9,Quaid-e-Azam International Hospital,0,1
+Dental Karachi,10,Rehman Medical Institute,0,1
+Dental Karachi,11,Hameed Latif Hospital,0,1
+Dental Karachi,12,Hearts International,0,1
+Dental Karachi,13,Doctors Hospital,0,1
+Dental Karachi,14,Kulsum International Hospital,0,1
+Dental Karachi,15,Medikay Cardiac Center,0,1
+Dental Karachi,16,Bahria International Hospital,0,1
+Dental Karachi,17,MMC General Hospital,0,1
+Dental Karachi,18,Northwest General Hospital,0,1
+Dental Karachi,19,South City Hospital,0,1
+Dental Karachi,20,Tabba Heart Institute,0,1
+Dental Karachi,21,Irfan General Hospital,0,1
+Dental Karachi,22,Dr. Zia uddin Hospital,0,1
+Dental Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Dental Karachi,24,Hair Transplant Institute,0,1
+Dental Karachi,25,Cosmetic Expert Clinic,0,1
+Dental Karachi,26,Concept Fertility Clinic,0,1
+Dental Karachi,27,NIBD & BMT,0,1
+Dental Karachi,28,Prime Teaching Hospital,0,1
+Dental Karachi,29,Horizon,0,1
+Dental Karachi,30,Dr. Zia uddin Hospital,0,1
+Oncology Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Oncology Karachi,2,MedAsk Tours,0,1
+Oncology Karachi,3,Agha Khan University Hospital,1,1
+Oncology Karachi,4,Shoukat Khanum M Hospital,0,1
+Oncology Karachi,5,Shoukat Khanum M Hospital,0,1
+Oncology Karachi,6,Shifa International,0,1
+Oncology Karachi,7,E-Shifa,0,1
+Oncology Karachi,8,All Medical Centre,0,1
+Oncology Karachi,9,Quaid-e-Azam International Hospital,0,1
+Oncology Karachi,10,Rehman Medical Institute,0,1
+Oncology Karachi,11,Hameed Latif Hospital,0,1
+Oncology Karachi,12,Hearts International,0,1
+Oncology Karachi,13,Doctors Hospital,0,1
+Oncology Karachi,14,Kulsum International Hospital,0,1
+Oncology Karachi,15,Medikay Cardiac Center,0,1
+Oncology Karachi,16,Bahria International Hospital,0,1
+Oncology Karachi,17,MMC General Hospital,0,1
+Oncology Karachi,18,Northwest General Hospital,0,1
+Oncology Karachi,19,South City Hospital,0,1
+Oncology Karachi,20,Tabba Heart Institute,0,1
+Oncology Karachi,21,Irfan General Hospital,0,1
+Oncology Karachi,22,Dr. Zia uddin Hospital,0,1
+Oncology Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Oncology Karachi,24,Hair Transplant Institute,0,1
+Oncology Karachi,25,Cosmetic Expert Clinic,0,1
+Oncology Karachi,26,Concept Fertility Clinic,0,1
+Oncology Karachi,27,NIBD & BMT,0,1
+Oncology Karachi,28,Prime Teaching Hospital,0,1
+Oncology Karachi,29,Horizon,0,1
+Oncology Karachi,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Karachi,2,MedAsk Tours,0,1
+Orthopedics Karachi,3,Agha Khan University Hospital,1,1
+Orthopedics Karachi,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Karachi,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Karachi,6,Shifa International,0,1
+Orthopedics Karachi,7,E-Shifa,0,1
+Orthopedics Karachi,8,All Medical Centre,0,1
+Orthopedics Karachi,9,Quaid-e-Azam International Hospital,0,1
+Orthopedics Karachi,10,Rehman Medical Institute,0,1
+Orthopedics Karachi,11,Hameed Latif Hospital,0,1
+Orthopedics Karachi,12,Hearts International,0,1
+Orthopedics Karachi,13,Doctors Hospital,0,1
+Orthopedics Karachi,14,Kulsum International Hospital,0,1
+Orthopedics Karachi,15,Medikay Cardiac Center,0,1
+Orthopedics Karachi,16,Bahria International Hospital,0,1
+Orthopedics Karachi,17,MMC General Hospital,0,1
+Orthopedics Karachi,18,Northwest General Hospital,0,1
+Orthopedics Karachi,19,South City Hospital,1,1
+Orthopedics Karachi,20,Tabba Heart Institute,0,1
+Orthopedics Karachi,21,Irfan General Hospital,0,1
+Orthopedics Karachi,22,Dr. Zia uddin Hospital,1,1
+Orthopedics Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Karachi,24,Hair Transplant Institute,0,1
+Orthopedics Karachi,25,Cosmetic Expert Clinic,0,1
+Orthopedics Karachi,26,Concept Fertility Clinic,0,1
+Orthopedics Karachi,27,NIBD & BMT,0,1
+Orthopedics Karachi,28,Prime Teaching Hospital,0,1
+Orthopedics Karachi,29,Horizon,0,1
+Orthopedics Karachi,30,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Cosmetic Surgery Karachi,2,MedAsk Tours,0,1
+Cosmetic Surgery Karachi,3,Agha Khan University Hospital,1,1
+Cosmetic Surgery Karachi,4,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Karachi,5,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Karachi,6,Shifa International,0,1
+Cosmetic Surgery Karachi,7,E-Shifa,0,1
+Cosmetic Surgery Karachi,8,All Medical Centre,0,1
+Cosmetic Surgery Karachi,9,Quaid-e-Azam International Hospital,0,1
+Cosmetic Surgery Karachi,10,Rehman Medical Institute,0,1
+Cosmetic Surgery Karachi,11,Hameed Latif Hospital,0,1
+Cosmetic Surgery Karachi,12,Hearts International,0,1
+Cosmetic Surgery Karachi,13,Doctors Hospital,0,1
+Cosmetic Surgery Karachi,14,Kulsum International Hospital,0,1
+Cosmetic Surgery Karachi,15,Medikay Cardiac Center,0,1
+Cosmetic Surgery Karachi,16,Bahria International Hospital,0,1
+Cosmetic Surgery Karachi,17,MMC General Hospital,0,1
+Cosmetic Surgery Karachi,18,Northwest General Hospital,0,1
+Cosmetic Surgery Karachi,19,South City Hospital,0,1
+Cosmetic Surgery Karachi,20,Tabba Heart Institute,0,1
+Cosmetic Surgery Karachi,21,Irfan General Hospital,0,1
+Cosmetic Surgery Karachi,22,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Cosmetic Surgery Karachi,24,Hair Transplant Institute,0,1
+Cosmetic Surgery Karachi,25,Cosmetic Expert Clinic,0,1
+Cosmetic Surgery Karachi,26,Concept Fertility Clinic,0,1
+Cosmetic Surgery Karachi,27,NIBD & BMT,0,1
+Cosmetic Surgery Karachi,28,Prime Teaching Hospital,0,1
+Cosmetic Surgery Karachi,29,Horizon,0,1
+Cosmetic Surgery Karachi,30,Dr. Zia uddin Hospital,0,1
+Cancer Treatment Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Cancer Treatment Lahore,2,MedAsk Tours,0,1
+Cancer Treatment Lahore,3,Agha Khan University Hospital,0,1
+Cancer Treatment Lahore,4,Shoukat Khanum M Hospital,1,1
+Cancer Treatment Lahore,5,Shoukat Khanum M Hospital,0,1
+Cancer Treatment Lahore,6,Shifa International,0,1
+Cancer Treatment Lahore,7,E-Shifa,0,1
+Cancer Treatment Lahore,8,All Medical Centre,0,1
+Cancer Treatment Lahore,9,Quaid-e-Azam International Hospital,0,1
+Cancer Treatment Lahore,10,Rehman Medical Institute,0,1
+Cancer Treatment Lahore,11,Hameed Latif Hospital,0,1
+Cancer Treatment Lahore,12,Hearts International,0,1
+Cancer Treatment Lahore,13,Doctors Hospital,0,1
+Cancer Treatment Lahore,14,Kulsum International Hospital,0,1
+Cancer Treatment Lahore,15,Medikay Cardiac Center,0,1
+Cancer Treatment Lahore,16,Bahria International Hospital,0,1
+Cancer Treatment Lahore,17,MMC General Hospital,0,1
+Cancer Treatment Lahore,18,Northwest General Hospital,0,1
+Cancer Treatment Lahore,19,South City Hospital,0,1
+Cancer Treatment Lahore,20,Tabba Heart Institute,0,1
+Cancer Treatment Lahore,21,Irfan General Hospital,0,1
+Cancer Treatment Lahore,22,Dr. Zia uddin Hospital,0,1
+Cancer Treatment Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Cancer Treatment Lahore,24,Hair Transplant Institute,0,1
+Cancer Treatment Lahore,25,Cosmetic Expert Clinic,0,1
+Cancer Treatment Lahore,26,Concept Fertility Clinic,0,1
+Cancer Treatment Lahore,27,NIBD & BMT,0,1
+Cancer Treatment Lahore,28,Prime Teaching Hospital,0,1
+Cancer Treatment Lahore,29,Horizon,0,1
+Cancer Treatment Lahore,30,Dr. Zia uddin Hospital,0,1
+Cancer Treatment Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Cancer Treatment Peshawar,2,MedAsk Tours,0,1
+Cancer Treatment Peshawar,3,Agha Khan University Hospital,0,1
+Cancer Treatment Peshawar,4,Shoukat Khanum M Hospital,0,1
+Cancer Treatment Peshawar,5,Shoukat Khanum M Hospital,1,1
+Cancer Treatment Peshawar,6,Shifa International,0,1
+Cancer Treatment Peshawar,7,E-Shifa,0,1
+Cancer Treatment Peshawar,8,All Medical Centre,0,1
+Cancer Treatment Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Cancer Treatment Peshawar,10,Rehman Medical Institute,0,1
+Cancer Treatment Peshawar,11,Hameed Latif Hospital,0,1
+Cancer Treatment Peshawar,12,Hearts International,0,1
+Cancer Treatment Peshawar,13,Doctors Hospital,0,1
+Cancer Treatment Peshawar,14,Kulsum International Hospital,0,1
+Cancer Treatment Peshawar,15,Medikay Cardiac Center,0,1
+Cancer Treatment Peshawar,16,Bahria International Hospital,0,1
+Cancer Treatment Peshawar,17,MMC General Hospital,0,1
+Cancer Treatment Peshawar,18,Northwest General Hospital,0,1
+Cancer Treatment Peshawar,19,South City Hospital,0,1
+Cancer Treatment Peshawar,20,Tabba Heart Institute,0,1
+Cancer Treatment Peshawar,21,Irfan General Hospital,0,1
+Cancer Treatment Peshawar,22,Dr. Zia uddin Hospital,0,1
+Cancer Treatment Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Cancer Treatment Peshawar,24,Hair Transplant Institute,0,1
+Cancer Treatment Peshawar,25,Cosmetic Expert Clinic,0,1
+Cancer Treatment Peshawar,26,Concept Fertility Clinic,0,1
+Cancer Treatment Peshawar,27,NIBD & BMT,0,1
+Cancer Treatment Peshawar,28,Prime Teaching Hospital,0,1
+Cancer Treatment Peshawar,29,Horizon,0,1
+Cancer Treatment Peshawar,30,Dr. Zia uddin Hospital,0,1
+Cardiology Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Cardiology Islamabad,2,MedAsk Tours,0,1
+Cardiology Islamabad,3,Agha Khan University Hospital,0,1
+Cardiology Islamabad,4,Shoukat Khanum M Hospital,0,1
+Cardiology Islamabad,5,Shoukat Khanum M Hospital,0,1
+Cardiology Islamabad,6,Shifa International,1,1
+Cardiology Islamabad,7,E-Shifa,1,1
+Cardiology Islamabad,8,All Medical Centre,0,1
+Cardiology Islamabad,9,Quaid-e-Azam International Hospital,1,1
+Cardiology Islamabad,10,Rehman Medical Institute,0,1
+Cardiology Islamabad,11,Hameed Latif Hospital,0,1
+Cardiology Islamabad,12,Hearts International,0,1
+Cardiology Islamabad,13,Doctors Hospital,0,1
+Cardiology Islamabad,14,Kulsum International Hospital,1,1
+Cardiology Islamabad,15,Medikay Cardiac Center,1,1
+Cardiology Islamabad,16,Bahria International Hospital,0,1
+Cardiology Islamabad,17,MMC General Hospital,0,1
+Cardiology Islamabad,18,Northwest General Hospital,0,1
+Cardiology Islamabad,19,South City Hospital,0,1
+Cardiology Islamabad,20,Tabba Heart Institute,0,1
+Cardiology Islamabad,21,Irfan General Hospital,0,1
+Cardiology Islamabad,22,Dr. Zia uddin Hospital,0,1
+Cardiology Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Cardiology Islamabad,24,Hair Transplant Institute,0,1
+Cardiology Islamabad,25,Cosmetic Expert Clinic,0,1
+Cardiology Islamabad,26,Concept Fertility Clinic,0,1
+Cardiology Islamabad,27,NIBD & BMT,0,1
+Cardiology Islamabad,28,Prime Teaching Hospital,0,1
+Cardiology Islamabad,29,Horizon,0,1
+Cardiology Islamabad,30,Dr. Zia uddin Hospital,0,1
+Dental Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Dental Islamabad,2,MedAsk Tours,0,1
+Dental Islamabad,3,Agha Khan University Hospital,0,1
+Dental Islamabad,4,Shoukat Khanum M Hospital,0,1
+Dental Islamabad,5,Shoukat Khanum M Hospital,0,1
+Dental Islamabad,6,Shifa International,1,1
+Dental Islamabad,7,E-Shifa,1,1
+Dental Islamabad,8,All Medical Centre,0,1
+Dental Islamabad,9,Quaid-e-Azam International Hospital,1,1
+Dental Islamabad,10,Rehman Medical Institute,0,1
+Dental Islamabad,11,Hameed Latif Hospital,0,1
+Dental Islamabad,12,Hearts International,0,1
+Dental Islamabad,13,Doctors Hospital,0,1
+Dental Islamabad,14,Kulsum International Hospital,0,1
+Dental Islamabad,15,Medikay Cardiac Center,0,1
+Dental Islamabad,16,Bahria International Hospital,0,1
+Dental Islamabad,17,MMC General Hospital,0,1
+Dental Islamabad,18,Northwest General Hospital,0,1
+Dental Islamabad,19,South City Hospital,0,1
+Dental Islamabad,20,Tabba Heart Institute,0,1
+Dental Islamabad,21,Irfan General Hospital,0,1
+Dental Islamabad,22,Dr. Zia uddin Hospital,0,1
+Dental Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Dental Islamabad,24,Hair Transplant Institute,0,1
+Dental Islamabad,25,Cosmetic Expert Clinic,0,1
+Dental Islamabad,26,Concept Fertility Clinic,0,1
+Dental Islamabad,27,NIBD & BMT,0,1
+Dental Islamabad,28,Prime Teaching Hospital,0,1
+Dental Islamabad,29,Horizon,0,1
+Dental Islamabad,30,Dr. Zia uddin Hospital,0,1
+Oncology Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Oncology Islamabad,2,MedAsk Tours,0,1
+Oncology Islamabad,3,Agha Khan University Hospital,0,1
+Oncology Islamabad,4,Shoukat Khanum M Hospital,0,1
+Oncology Islamabad,5,Shoukat Khanum M Hospital,0,1
+Oncology Islamabad,6,Shifa International,1,1
+Oncology Islamabad,7,E-Shifa,1,1
+Oncology Islamabad,8,All Medical Centre,0,1
+Oncology Islamabad,9,Quaid-e-Azam International Hospital,0,1
+Oncology Islamabad,10,Rehman Medical Institute,0,1
+Oncology Islamabad,11,Hameed Latif Hospital,0,1
+Oncology Islamabad,12,Hearts International,0,1
+Oncology Islamabad,13,Doctors Hospital,0,1
+Oncology Islamabad,14,Kulsum International Hospital,0,1
+Oncology Islamabad,15,Medikay Cardiac Center,0,1
+Oncology Islamabad,16,Bahria International Hospital,0,1
+Oncology Islamabad,17,MMC General Hospital,0,1
+Oncology Islamabad,18,Northwest General Hospital,0,1
+Oncology Islamabad,19,South City Hospital,0,1
+Oncology Islamabad,20,Tabba Heart Institute,0,1
+Oncology Islamabad,21,Irfan General Hospital,0,1
+Oncology Islamabad,22,Dr. Zia uddin Hospital,0,1
+Oncology Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Oncology Islamabad,24,Hair Transplant Institute,0,1
+Oncology Islamabad,25,Cosmetic Expert Clinic,0,1
+Oncology Islamabad,26,Concept Fertility Clinic,0,1
+Oncology Islamabad,27,NIBD & BMT,0,1
+Oncology Islamabad,28,Prime Teaching Hospital,0,1
+Oncology Islamabad,29,Horizon,0,1
+Oncology Islamabad,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Islamabad,2,MedAsk Tours,0,1
+Orthopedics Islamabad,3,Agha Khan University Hospital,0,1
+Orthopedics Islamabad,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Islamabad,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Islamabad,6,Shifa International,1,1
+Orthopedics Islamabad,7,E-Shifa,1,1
+Orthopedics Islamabad,8,All Medical Centre,1,1
+Orthopedics Islamabad,9,Quaid-e-Azam International Hospital,1,1
+Orthopedics Islamabad,10,Rehman Medical Institute,0,1
+Orthopedics Islamabad,11,Hameed Latif Hospital,0,1
+Orthopedics Islamabad,12,Hearts International,0,1
+Orthopedics Islamabad,13,Doctors Hospital,0,1
+Orthopedics Islamabad,14,Kulsum International Hospital,0,1
+Orthopedics Islamabad,15,Medikay Cardiac Center,0,1
+Orthopedics Islamabad,16,Bahria International Hospital,0,1
+Orthopedics Islamabad,17,MMC General Hospital,0,1
+Orthopedics Islamabad,18,Northwest General Hospital,0,1
+Orthopedics Islamabad,19,South City Hospital,0,1
+Orthopedics Islamabad,20,Tabba Heart Institute,0,1
+Orthopedics Islamabad,21,Irfan General Hospital,0,1
+Orthopedics Islamabad,22,Dr. Zia uddin Hospital,0,1
+Orthopedics Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Islamabad,24,Hair Transplant Institute,0,1
+Orthopedics Islamabad,25,Cosmetic Expert Clinic,0,1
+Orthopedics Islamabad,26,Concept Fertility Clinic,0,1
+Orthopedics Islamabad,27,NIBD & BMT,0,1
+Orthopedics Islamabad,28,Prime Teaching Hospital,0,1
+Orthopedics Islamabad,29,Horizon,0,1
+Orthopedics Islamabad,30,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Cosmetic Surgery Islamabad,2,MedAsk Tours,0,1
+Cosmetic Surgery Islamabad,3,Agha Khan University Hospital,0,1
+Cosmetic Surgery Islamabad,4,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Islamabad,5,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Islamabad,6,Shifa International,1,1
+Cosmetic Surgery Islamabad,7,E-Shifa,1,1
+Cosmetic Surgery Islamabad,8,All Medical Centre,0,1
+Cosmetic Surgery Islamabad,9,Quaid-e-Azam International Hospital,0,1
+Cosmetic Surgery Islamabad,10,Rehman Medical Institute,0,1
+Cosmetic Surgery Islamabad,11,Hameed Latif Hospital,0,1
+Cosmetic Surgery Islamabad,12,Hearts International,0,1
+Cosmetic Surgery Islamabad,13,Doctors Hospital,0,1
+Cosmetic Surgery Islamabad,14,Kulsum International Hospital,0,1
+Cosmetic Surgery Islamabad,15,Medikay Cardiac Center,0,1
+Cosmetic Surgery Islamabad,16,Bahria International Hospital,0,1
+Cosmetic Surgery Islamabad,17,MMC General Hospital,0,1
+Cosmetic Surgery Islamabad,18,Northwest General Hospital,0,1
+Cosmetic Surgery Islamabad,19,South City Hospital,0,1
+Cosmetic Surgery Islamabad,20,Tabba Heart Institute,0,1
+Cosmetic Surgery Islamabad,21,Irfan General Hospital,0,1
+Cosmetic Surgery Islamabad,22,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Cosmetic Surgery Islamabad,24,Hair Transplant Institute,1,1
+Cosmetic Surgery Islamabad,25,Cosmetic Expert Clinic,0,1
+Cosmetic Surgery Islamabad,26,Concept Fertility Clinic,0,1
+Cosmetic Surgery Islamabad,27,NIBD & BMT,0,1
+Cosmetic Surgery Islamabad,28,Prime Teaching Hospital,0,1
+Cosmetic Surgery Islamabad,29,Horizon,0,1
+Cosmetic Surgery Islamabad,30,Dr. Zia uddin Hospital,0,1
+Pulmonology Transplant Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Pulmonology Transplant Islamabad,2,MedAsk Tours,0,1
+Pulmonology Transplant Islamabad,3,Agha Khan University Hospital,0,1
+Pulmonology Transplant Islamabad,4,Shoukat Khanum M Hospital,0,1
+Pulmonology Transplant Islamabad,5,Shoukat Khanum M Hospital,0,1
+Pulmonology Transplant Islamabad,6,Shifa International,1,1
+Pulmonology Transplant Islamabad,7,E-Shifa,1,1
+Pulmonology Transplant Islamabad,8,All Medical Centre,0,1
+Pulmonology Transplant Islamabad,9,Quaid-e-Azam International Hospital,0,1
+Pulmonology Transplant Islamabad,10,Rehman Medical Institute,0,1
+Pulmonology Transplant Islamabad,11,Hameed Latif Hospital,0,1
+Pulmonology Transplant Islamabad,12,Hearts International,0,1
+Pulmonology Transplant Islamabad,13,Doctors Hospital,0,1
+Pulmonology Transplant Islamabad,14,Kulsum International Hospital,0,1
+Pulmonology Transplant Islamabad,15,Medikay Cardiac Center,0,1
+Pulmonology Transplant Islamabad,16,Bahria International Hospital,0,1
+Pulmonology Transplant Islamabad,17,MMC General Hospital,0,1
+Pulmonology Transplant Islamabad,18,Northwest General Hospital,0,1
+Pulmonology Transplant Islamabad,19,South City Hospital,0,1
+Pulmonology Transplant Islamabad,20,Tabba Heart Institute,0,1
+Pulmonology Transplant Islamabad,21,Irfan General Hospital,0,1
+Pulmonology Transplant Islamabad,22,Dr. Zia uddin Hospital,0,1
+Pulmonology Transplant Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Pulmonology Transplant Islamabad,24,Hair Transplant Institute,0,1
+Pulmonology Transplant Islamabad,25,Cosmetic Expert Clinic,0,1
+Pulmonology Transplant Islamabad,26,Concept Fertility Clinic,0,1
+Pulmonology Transplant Islamabad,27,NIBD & BMT,0,1
+Pulmonology Transplant Islamabad,28,Prime Teaching Hospital,0,1
+Pulmonology Transplant Islamabad,29,Horizon,0,1
+Pulmonology Transplant Islamabad,30,Dr. Zia uddin Hospital,0,1
+General Surgery Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+General Surgery Islamabad,2,MedAsk Tours,0,1
+General Surgery Islamabad,3,Agha Khan University Hospital,0,1
+General Surgery Islamabad,4,Shoukat Khanum M Hospital,0,1
+General Surgery Islamabad,5,Shoukat Khanum M Hospital,0,1
+General Surgery Islamabad,6,Shifa International,0,1
+General Surgery Islamabad,7,E-Shifa,0,1
+General Surgery Islamabad,8,All Medical Centre,1,1
+General Surgery Islamabad,9,Quaid-e-Azam International Hospital,0,1
+General Surgery Islamabad,10,Rehman Medical Institute,0,1
+General Surgery Islamabad,11,Hameed Latif Hospital,0,1
+General Surgery Islamabad,12,Hearts International,0,1
+General Surgery Islamabad,13,Doctors Hospital,0,1
+General Surgery Islamabad,14,Kulsum International Hospital,1,1
+General Surgery Islamabad,15,Medikay Cardiac Center,0,1
+General Surgery Islamabad,16,Bahria International Hospital,0,1
+General Surgery Islamabad,17,MMC General Hospital,0,1
+General Surgery Islamabad,18,Northwest General Hospital,0,1
+General Surgery Islamabad,19,South City Hospital,0,1
+General Surgery Islamabad,20,Tabba Heart Institute,0,1
+General Surgery Islamabad,21,Irfan General Hospital,0,1
+General Surgery Islamabad,22,Dr. Zia uddin Hospital,0,1
+General Surgery Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+General Surgery Islamabad,24,Hair Transplant Institute,0,1
+General Surgery Islamabad,25,Cosmetic Expert Clinic,0,1
+General Surgery Islamabad,26,Concept Fertility Clinic,0,1
+General Surgery Islamabad,27,NIBD & BMT,0,1
+General Surgery Islamabad,28,Prime Teaching Hospital,0,1
+General Surgery Islamabad,29,Horizon,0,1
+General Surgery Islamabad,30,Dr. Zia uddin Hospital,0,1
+Neurosurgery Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Neurosurgery Islamabad,2,MedAsk Tours,0,1
+Neurosurgery Islamabad,3,Agha Khan University Hospital,0,1
+Neurosurgery Islamabad,4,Shoukat Khanum M Hospital,0,1
+Neurosurgery Islamabad,5,Shoukat Khanum M Hospital,0,1
+Neurosurgery Islamabad,6,Shifa International,0,1
+Neurosurgery Islamabad,7,E-Shifa,0,1
+Neurosurgery Islamabad,8,All Medical Centre,1,1
+Neurosurgery Islamabad,9,Quaid-e-Azam International Hospital,0,1
+Neurosurgery Islamabad,10,Rehman Medical Institute,0,1
+Neurosurgery Islamabad,11,Hameed Latif Hospital,0,1
+Neurosurgery Islamabad,12,Hearts International,0,1
+Neurosurgery Islamabad,13,Doctors Hospital,0,1
+Neurosurgery Islamabad,14,Kulsum International Hospital,0,1
+Neurosurgery Islamabad,15,Medikay Cardiac Center,0,1
+Neurosurgery Islamabad,16,Bahria International Hospital,0,1
+Neurosurgery Islamabad,17,MMC General Hospital,0,1
+Neurosurgery Islamabad,18,Northwest General Hospital,0,1
+Neurosurgery Islamabad,19,South City Hospital,0,1
+Neurosurgery Islamabad,20,Tabba Heart Institute,0,1
+Neurosurgery Islamabad,21,Irfan General Hospital,0,1
+Neurosurgery Islamabad,22,Dr. Zia uddin Hospital,0,1
+Neurosurgery Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Neurosurgery Islamabad,24,Hair Transplant Institute,0,1
+Neurosurgery Islamabad,25,Cosmetic Expert Clinic,0,1
+Neurosurgery Islamabad,26,Concept Fertility Clinic,0,1
+Neurosurgery Islamabad,27,NIBD & BMT,0,1
+Neurosurgery Islamabad,28,Prime Teaching Hospital,0,1
+Neurosurgery Islamabad,29,Horizon,0,1
+Neurosurgery Islamabad,30,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Obstetrics And Gynaecology Islamabad,2,MedAsk Tours,0,1
+Obstetrics And Gynaecology Islamabad,3,Agha Khan University Hospital,0,1
+Obstetrics And Gynaecology Islamabad,4,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Islamabad,5,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Islamabad,6,Shifa International,0,1
+Obstetrics And Gynaecology Islamabad,7,E-Shifa,0,1
+Obstetrics And Gynaecology Islamabad,8,All Medical Centre,1,1
+Obstetrics And Gynaecology Islamabad,9,Quaid-e-Azam International Hospital,0,1
+Obstetrics And Gynaecology Islamabad,10,Rehman Medical Institute,0,1
+Obstetrics And Gynaecology Islamabad,11,Hameed Latif Hospital,0,1
+Obstetrics And Gynaecology Islamabad,12,Hearts International,0,1
+Obstetrics And Gynaecology Islamabad,13,Doctors Hospital,0,1
+Obstetrics And Gynaecology Islamabad,14,Kulsum International Hospital,0,1
+Obstetrics And Gynaecology Islamabad,15,Medikay Cardiac Center,0,1
+Obstetrics And Gynaecology Islamabad,16,Bahria International Hospital,0,1
+Obstetrics And Gynaecology Islamabad,17,MMC General Hospital,0,1
+Obstetrics And Gynaecology Islamabad,18,Northwest General Hospital,0,1
+Obstetrics And Gynaecology Islamabad,19,South City Hospital,0,1
+Obstetrics And Gynaecology Islamabad,20,Tabba Heart Institute,0,1
+Obstetrics And Gynaecology Islamabad,21,Irfan General Hospital,0,1
+Obstetrics And Gynaecology Islamabad,22,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Obstetrics And Gynaecology Islamabad,24,Hair Transplant Institute,0,1
+Obstetrics And Gynaecology Islamabad,25,Cosmetic Expert Clinic,0,1
+Obstetrics And Gynaecology Islamabad,26,Concept Fertility Clinic,0,1
+Obstetrics And Gynaecology Islamabad,27,NIBD & BMT,0,1
+Obstetrics And Gynaecology Islamabad,28,Prime Teaching Hospital,0,1
+Obstetrics And Gynaecology Islamabad,29,Horizon,0,1
+Obstetrics And Gynaecology Islamabad,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Transplant Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Transplant Islamabad,2,MedAsk Tours,0,1
+Orthopedics Transplant Islamabad,3,Agha Khan University Hospital,0,1
+Orthopedics Transplant Islamabad,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Transplant Islamabad,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Transplant Islamabad,6,Shifa International,0,1
+Orthopedics Transplant Islamabad,7,E-Shifa,0,1
+Orthopedics Transplant Islamabad,8,All Medical Centre,1,1
+Orthopedics Transplant Islamabad,9,Quaid-e-Azam International Hospital,1,1
+Orthopedics Transplant Islamabad,10,Rehman Medical Institute,0,1
+Orthopedics Transplant Islamabad,11,Hameed Latif Hospital,0,1
+Orthopedics Transplant Islamabad,12,Hearts International,0,1
+Orthopedics Transplant Islamabad,13,Doctors Hospital,0,1
+Orthopedics Transplant Islamabad,14,Kulsum International Hospital,0,1
+Orthopedics Transplant Islamabad,15,Medikay Cardiac Center,0,1
+Orthopedics Transplant Islamabad,16,Bahria International Hospital,0,1
+Orthopedics Transplant Islamabad,17,MMC General Hospital,0,1
+Orthopedics Transplant Islamabad,18,Northwest General Hospital,0,1
+Orthopedics Transplant Islamabad,19,South City Hospital,0,1
+Orthopedics Transplant Islamabad,20,Tabba Heart Institute,0,1
+Orthopedics Transplant Islamabad,21,Irfan General Hospital,0,1
+Orthopedics Transplant Islamabad,22,Dr. Zia uddin Hospital,0,1
+Orthopedics Transplant Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Transplant Islamabad,24,Hair Transplant Institute,0,1
+Orthopedics Transplant Islamabad,25,Cosmetic Expert Clinic,0,1
+Orthopedics Transplant Islamabad,26,Concept Fertility Clinic,0,1
+Orthopedics Transplant Islamabad,27,NIBD & BMT,0,1
+Orthopedics Transplant Islamabad,28,Prime Teaching Hospital,0,1
+Orthopedics Transplant Islamabad,29,Horizon,0,1
+Orthopedics Transplant Islamabad,30,Dr. Zia uddin Hospital,0,1
+Cardiology Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Cardiology Peshawar,2,MedAsk Tours,0,1
+Cardiology Peshawar,3,Agha Khan University Hospital,0,1
+Cardiology Peshawar,4,Shoukat Khanum M Hospital,0,1
+Cardiology Peshawar,5,Shoukat Khanum M Hospital,0,1
+Cardiology Peshawar,6,Shifa International,0,1
+Cardiology Peshawar,7,E-Shifa,0,1
+Cardiology Peshawar,8,All Medical Centre,0,1
+Cardiology Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Cardiology Peshawar,10,Rehman Medical Institute,1,1
+Cardiology Peshawar,11,Hameed Latif Hospital,0,1
+Cardiology Peshawar,12,Hearts International,0,1
+Cardiology Peshawar,13,Doctors Hospital,0,1
+Cardiology Peshawar,14,Kulsum International Hospital,0,1
+Cardiology Peshawar,15,Medikay Cardiac Center,0,1
+Cardiology Peshawar,16,Bahria International Hospital,0,1
+Cardiology Peshawar,17,MMC General Hospital,1,1
+Cardiology Peshawar,18,Northwest General Hospital,1,1
+Cardiology Peshawar,19,South City Hospital,0,1
+Cardiology Peshawar,20,Tabba Heart Institute,0,1
+Cardiology Peshawar,21,Irfan General Hospital,0,1
+Cardiology Peshawar,22,Dr. Zia uddin Hospital,0,1
+Cardiology Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Cardiology Peshawar,24,Hair Transplant Institute,0,1
+Cardiology Peshawar,25,Cosmetic Expert Clinic,0,1
+Cardiology Peshawar,26,Concept Fertility Clinic,0,1
+Cardiology Peshawar,27,NIBD & BMT,0,1
+Cardiology Peshawar,28,Prime Teaching Hospital,0,1
+Cardiology Peshawar,29,Horizon,0,1
+Cardiology Peshawar,30,Dr. Zia uddin Hospital,0,1
+Dental Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Dental Peshawar,2,MedAsk Tours,0,1
+Dental Peshawar,3,Agha Khan University Hospital,0,1
+Dental Peshawar,4,Shoukat Khanum M Hospital,0,1
+Dental Peshawar,5,Shoukat Khanum M Hospital,0,1
+Dental Peshawar,6,Shifa International,0,1
+Dental Peshawar,7,E-Shifa,0,1
+Dental Peshawar,8,All Medical Centre,0,1
+Dental Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Dental Peshawar,10,Rehman Medical Institute,1,1
+Dental Peshawar,11,Hameed Latif Hospital,0,1
+Dental Peshawar,12,Hearts International,0,1
+Dental Peshawar,13,Doctors Hospital,0,1
+Dental Peshawar,14,Kulsum International Hospital,0,1
+Dental Peshawar,15,Medikay Cardiac Center,0,1
+Dental Peshawar,16,Bahria International Hospital,0,1
+Dental Peshawar,17,MMC General Hospital,0,1
+Dental Peshawar,18,Northwest General Hospital,0,1
+Dental Peshawar,19,South City Hospital,0,1
+Dental Peshawar,20,Tabba Heart Institute,0,1
+Dental Peshawar,21,Irfan General Hospital,0,1
+Dental Peshawar,22,Dr. Zia uddin Hospital,0,1
+Dental Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Dental Peshawar,24,Hair Transplant Institute,0,1
+Dental Peshawar,25,Cosmetic Expert Clinic,0,1
+Dental Peshawar,26,Concept Fertility Clinic,0,1
+Dental Peshawar,27,NIBD & BMT,0,1
+Dental Peshawar,28,Prime Teaching Hospital,0,1
+Dental Peshawar,29,Horizon,0,1
+Dental Peshawar,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Transplant Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Transplant Peshawar,2,MedAsk Tours,0,1
+Orthopedics Transplant Peshawar,3,Agha Khan University Hospital,0,1
+Orthopedics Transplant Peshawar,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Transplant Peshawar,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Transplant Peshawar,6,Shifa International,0,1
+Orthopedics Transplant Peshawar,7,E-Shifa,0,1
+Orthopedics Transplant Peshawar,8,All Medical Centre,0,1
+Orthopedics Transplant Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Orthopedics Transplant Peshawar,10,Rehman Medical Institute,1,1
+Orthopedics Transplant Peshawar,11,Hameed Latif Hospital,0,1
+Orthopedics Transplant Peshawar,12,Hearts International,0,1
+Orthopedics Transplant Peshawar,13,Doctors Hospital,0,1
+Orthopedics Transplant Peshawar,14,Kulsum International Hospital,0,1
+Orthopedics Transplant Peshawar,15,Medikay Cardiac Center,0,1
+Orthopedics Transplant Peshawar,16,Bahria International Hospital,0,1
+Orthopedics Transplant Peshawar,17,MMC General Hospital,0,1
+Orthopedics Transplant Peshawar,18,Northwest General Hospital,0,1
+Orthopedics Transplant Peshawar,19,South City Hospital,0,1
+Orthopedics Transplant Peshawar,20,Tabba Heart Institute,0,1
+Orthopedics Transplant Peshawar,21,Irfan General Hospital,0,1
+Orthopedics Transplant Peshawar,22,Dr. Zia uddin Hospital,0,1
+Orthopedics Transplant Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Transplant Peshawar,24,Hair Transplant Institute,0,1
+Orthopedics Transplant Peshawar,25,Cosmetic Expert Clinic,0,1
+Orthopedics Transplant Peshawar,26,Concept Fertility Clinic,0,1
+Orthopedics Transplant Peshawar,27,NIBD & BMT,0,1
+Orthopedics Transplant Peshawar,28,Prime Teaching Hospital,0,1
+Orthopedics Transplant Peshawar,29,Horizon,0,1
+Orthopedics Transplant Peshawar,30,Dr. Zia uddin Hospital,0,1
+Cardiology Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Cardiology Lahore,2,MedAsk Tours,0,1
+Cardiology Lahore,3,Agha Khan University Hospital,0,1
+Cardiology Lahore,4,Shoukat Khanum M Hospital,0,1
+Cardiology Lahore,5,Shoukat Khanum M Hospital,0,1
+Cardiology Lahore,6,Shifa International,0,1
+Cardiology Lahore,7,E-Shifa,0,1
+Cardiology Lahore,8,All Medical Centre,0,1
+Cardiology Lahore,9,Quaid-e-Azam International Hospital,0,1
+Cardiology Lahore,10,Rehman Medical Institute,0,1
+Cardiology Lahore,11,Hameed Latif Hospital,1,1
+Cardiology Lahore,12,Hearts International,0,1
+Cardiology Lahore,13,Doctors Hospital,1,1
+Cardiology Lahore,14,Kulsum International Hospital,0,1
+Cardiology Lahore,15,Medikay Cardiac Center,0,1
+Cardiology Lahore,16,Bahria International Hospital,1,1
+Cardiology Lahore,17,MMC General Hospital,0,1
+Cardiology Lahore,18,Northwest General Hospital,0,1
+Cardiology Lahore,19,South City Hospital,0,1
+Cardiology Lahore,20,Tabba Heart Institute,0,1
+Cardiology Lahore,21,Irfan General Hospital,0,1
+Cardiology Lahore,22,Dr. Zia uddin Hospital,0,1
+Cardiology Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Cardiology Lahore,24,Hair Transplant Institute,0,1
+Cardiology Lahore,25,Cosmetic Expert Clinic,0,1
+Cardiology Lahore,26,Concept Fertility Clinic,0,1
+Cardiology Lahore,27,NIBD & BMT,0,1
+Cardiology Lahore,28,Prime Teaching Hospital,0,1
+Cardiology Lahore,29,Horizon,0,1
+Cardiology Lahore,30,Dr. Zia uddin Hospital,0,1
+Neurosurgery Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Neurosurgery Lahore,2,MedAsk Tours,0,1
+Neurosurgery Lahore,3,Agha Khan University Hospital,0,1
+Neurosurgery Lahore,4,Shoukat Khanum M Hospital,0,1
+Neurosurgery Lahore,5,Shoukat Khanum M Hospital,0,1
+Neurosurgery Lahore,6,Shifa International,0,1
+Neurosurgery Lahore,7,E-Shifa,0,1
+Neurosurgery Lahore,8,All Medical Centre,0,1
+Neurosurgery Lahore,9,Quaid-e-Azam International Hospital,0,1
+Neurosurgery Lahore,10,Rehman Medical Institute,0,1
+Neurosurgery Lahore,11,Hameed Latif Hospital,1,1
+Neurosurgery Lahore,12,Hearts International,0,1
+Neurosurgery Lahore,13,Doctors Hospital,0,1
+Neurosurgery Lahore,14,Kulsum International Hospital,0,1
+Neurosurgery Lahore,15,Medikay Cardiac Center,0,1
+Neurosurgery Lahore,16,Bahria International Hospital,0,1
+Neurosurgery Lahore,17,MMC General Hospital,0,1
+Neurosurgery Lahore,18,Northwest General Hospital,0,1
+Neurosurgery Lahore,19,South City Hospital,0,1
+Neurosurgery Lahore,20,Tabba Heart Institute,0,1
+Neurosurgery Lahore,21,Irfan General Hospital,0,1
+Neurosurgery Lahore,22,Dr. Zia uddin Hospital,0,1
+Neurosurgery Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Neurosurgery Lahore,24,Hair Transplant Institute,0,1
+Neurosurgery Lahore,25,Cosmetic Expert Clinic,0,1
+Neurosurgery Lahore,26,Concept Fertility Clinic,0,1
+Neurosurgery Lahore,27,NIBD & BMT,0,1
+Neurosurgery Lahore,28,Prime Teaching Hospital,0,1
+Neurosurgery Lahore,29,Horizon,0,1
+Neurosurgery Lahore,30,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Obstetrics And Gynaecology Lahore,2,MedAsk Tours,0,1
+Obstetrics And Gynaecology Lahore,3,Agha Khan University Hospital,0,1
+Obstetrics And Gynaecology Lahore,4,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Lahore,5,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Lahore,6,Shifa International,0,1
+Obstetrics And Gynaecology Lahore,7,E-Shifa,0,1
+Obstetrics And Gynaecology Lahore,8,All Medical Centre,0,1
+Obstetrics And Gynaecology Lahore,9,Quaid-e-Azam International Hospital,0,1
+Obstetrics And Gynaecology Lahore,10,Rehman Medical Institute,0,1
+Obstetrics And Gynaecology Lahore,11,Hameed Latif Hospital,1,1
+Obstetrics And Gynaecology Lahore,12,Hearts International,0,1
+Obstetrics And Gynaecology Lahore,13,Doctors Hospital,0,1
+Obstetrics And Gynaecology Lahore,14,Kulsum International Hospital,0,1
+Obstetrics And Gynaecology Lahore,15,Medikay Cardiac Center,0,1
+Obstetrics And Gynaecology Lahore,16,Bahria International Hospital,0,1
+Obstetrics And Gynaecology Lahore,17,MMC General Hospital,0,1
+Obstetrics And Gynaecology Lahore,18,Northwest General Hospital,0,1
+Obstetrics And Gynaecology Lahore,19,South City Hospital,0,1
+Obstetrics And Gynaecology Lahore,20,Tabba Heart Institute,0,1
+Obstetrics And Gynaecology Lahore,21,Irfan General Hospital,0,1
+Obstetrics And Gynaecology Lahore,22,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Obstetrics And Gynaecology Lahore,24,Hair Transplant Institute,0,1
+Obstetrics And Gynaecology Lahore,25,Cosmetic Expert Clinic,0,1
+Obstetrics And Gynaecology Lahore,26,Concept Fertility Clinic,0,1
+Obstetrics And Gynaecology Lahore,27,NIBD & BMT,0,1
+Obstetrics And Gynaecology Lahore,28,Prime Teaching Hospital,0,1
+Obstetrics And Gynaecology Lahore,29,Horizon,0,1
+Obstetrics And Gynaecology Lahore,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Lahore,2,MedAsk Tours,0,1
+Orthopedics Lahore,3,Agha Khan University Hospital,0,1
+Orthopedics Lahore,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Lahore,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Lahore,6,Shifa International,0,1
+Orthopedics Lahore,7,E-Shifa,0,1
+Orthopedics Lahore,8,All Medical Centre,0,1
+Orthopedics Lahore,9,Quaid-e-Azam International Hospital,0,1
+Orthopedics Lahore,10,Rehman Medical Institute,0,1
+Orthopedics Lahore,11,Hameed Latif Hospital,1,1
+Orthopedics Lahore,12,Hearts International,0,1
+Orthopedics Lahore,13,Doctors Hospital,0,1
+Orthopedics Lahore,14,Kulsum International Hospital,0,1
+Orthopedics Lahore,15,Medikay Cardiac Center,0,1
+Orthopedics Lahore,16,Bahria International Hospital,1,1
+Orthopedics Lahore,17,MMC General Hospital,0,1
+Orthopedics Lahore,18,Northwest General Hospital,0,1
+Orthopedics Lahore,19,South City Hospital,0,1
+Orthopedics Lahore,20,Tabba Heart Institute,0,1
+Orthopedics Lahore,21,Irfan General Hospital,0,1
+Orthopedics Lahore,22,Dr. Zia uddin Hospital,0,1
+Orthopedics Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Lahore,24,Hair Transplant Institute,0,1
+Orthopedics Lahore,25,Cosmetic Expert Clinic,0,1
+Orthopedics Lahore,26,Concept Fertility Clinic,0,1
+Orthopedics Lahore,27,NIBD & BMT,0,1
+Orthopedics Lahore,28,Prime Teaching Hospital,0,1
+Orthopedics Lahore,29,Horizon,0,1
+Orthopedics Lahore,30,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Cosmetic Surgery Lahore,2,MedAsk Tours,0,1
+Cosmetic Surgery Lahore,3,Agha Khan University Hospital,0,1
+Cosmetic Surgery Lahore,4,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Lahore,5,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Lahore,6,Shifa International,0,1
+Cosmetic Surgery Lahore,7,E-Shifa,0,1
+Cosmetic Surgery Lahore,8,All Medical Centre,0,1
+Cosmetic Surgery Lahore,9,Quaid-e-Azam International Hospital,0,1
+Cosmetic Surgery Lahore,10,Rehman Medical Institute,0,1
+Cosmetic Surgery Lahore,11,Hameed Latif Hospital,1,1
+Cosmetic Surgery Lahore,12,Hearts International,0,1
+Cosmetic Surgery Lahore,13,Doctors Hospital,0,1
+Cosmetic Surgery Lahore,14,Kulsum International Hospital,0,1
+Cosmetic Surgery Lahore,15,Medikay Cardiac Center,0,1
+Cosmetic Surgery Lahore,16,Bahria International Hospital,0,1
+Cosmetic Surgery Lahore,17,MMC General Hospital,0,1
+Cosmetic Surgery Lahore,18,Northwest General Hospital,0,1
+Cosmetic Surgery Lahore,19,South City Hospital,0,1
+Cosmetic Surgery Lahore,20,Tabba Heart Institute,0,1
+Cosmetic Surgery Lahore,21,Irfan General Hospital,0,1
+Cosmetic Surgery Lahore,22,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Cosmetic Surgery Lahore,24,Hair Transplant Institute,0,1
+Cosmetic Surgery Lahore,25,Cosmetic Expert Clinic,0,1
+Cosmetic Surgery Lahore,26,Concept Fertility Clinic,0,1
+Cosmetic Surgery Lahore,27,NIBD & BMT,0,1
+Cosmetic Surgery Lahore,28,Prime Teaching Hospital,0,1
+Cosmetic Surgery Lahore,29,Horizon,0,1
+Cosmetic Surgery Lahore,30,Dr. Zia uddin Hospital,0,1
+Cardiology Rawalpindi,1,Pak Emirates Military Hospital (PEMH),0,1
+Cardiology Rawalpindi,2,MedAsk Tours,0,1
+Cardiology Rawalpindi,3,Agha Khan University Hospital,0,1
+Cardiology Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+Cardiology Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+Cardiology Rawalpindi,6,Shifa International,0,1
+Cardiology Rawalpindi,7,E-Shifa,0,1
+Cardiology Rawalpindi,8,All Medical Centre,0,1
+Cardiology Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+Cardiology Rawalpindi,10,Rehman Medical Institute,0,1
+Cardiology Rawalpindi,11,Hameed Latif Hospital,0,1
+Cardiology Rawalpindi,12,Hearts International,1,1
+Cardiology Rawalpindi,13,Doctors Hospital,0,1
+Cardiology Rawalpindi,14,Kulsum International Hospital,0,1
+Cardiology Rawalpindi,15,Medikay Cardiac Center,0,1
+Cardiology Rawalpindi,16,Bahria International Hospital,0,1
+Cardiology Rawalpindi,17,MMC General Hospital,0,1
+Cardiology Rawalpindi,18,Northwest General Hospital,0,1
+Cardiology Rawalpindi,19,South City Hospital,0,1
+Cardiology Rawalpindi,20,Tabba Heart Institute,0,1
+Cardiology Rawalpindi,21,Irfan General Hospital,0,1
+Cardiology Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+Cardiology Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+Cardiology Rawalpindi,24,Hair Transplant Institute,0,1
+Cardiology Rawalpindi,25,Cosmetic Expert Clinic,0,1
+Cardiology Rawalpindi,26,Concept Fertility Clinic,0,1
+Cardiology Rawalpindi,27,NIBD & BMT,0,1
+Cardiology Rawalpindi,28,Prime Teaching Hospital,0,1
+Cardiology Rawalpindi,29,Horizon,0,1
+Cardiology Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+General Surgery Rawalpindi,1,Pak Emirates Military Hospital (PEMH),0,1
+General Surgery Rawalpindi,2,MedAsk Tours,0,1
+General Surgery Rawalpindi,3,Agha Khan University Hospital,0,1
+General Surgery Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+General Surgery Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+General Surgery Rawalpindi,6,Shifa International,0,1
+General Surgery Rawalpindi,7,E-Shifa,0,1
+General Surgery Rawalpindi,8,All Medical Centre,0,1
+General Surgery Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+General Surgery Rawalpindi,10,Rehman Medical Institute,0,1
+General Surgery Rawalpindi,11,Hameed Latif Hospital,0,1
+General Surgery Rawalpindi,12,Hearts International,1,1
+General Surgery Rawalpindi,13,Doctors Hospital,0,1
+General Surgery Rawalpindi,14,Kulsum International Hospital,0,1
+General Surgery Rawalpindi,15,Medikay Cardiac Center,0,1
+General Surgery Rawalpindi,16,Bahria International Hospital,0,1
+General Surgery Rawalpindi,17,MMC General Hospital,0,1
+General Surgery Rawalpindi,18,Northwest General Hospital,0,1
+General Surgery Rawalpindi,19,South City Hospital,0,1
+General Surgery Rawalpindi,20,Tabba Heart Institute,0,1
+General Surgery Rawalpindi,21,Irfan General Hospital,0,1
+General Surgery Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+General Surgery Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+General Surgery Rawalpindi,24,Hair Transplant Institute,0,1
+General Surgery Rawalpindi,25,Cosmetic Expert Clinic,0,1
+General Surgery Rawalpindi,26,Concept Fertility Clinic,0,1
+General Surgery Rawalpindi,27,NIBD & BMT,0,1
+General Surgery Rawalpindi,28,Prime Teaching Hospital,0,1
+General Surgery Rawalpindi,29,Horizon,0,1
+General Surgery Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,1,Pak Emirates Military Hospital (PEMH),0,1
+Obstetrics And Gynaecology Rawalpindi,2,MedAsk Tours,0,1
+Obstetrics And Gynaecology Rawalpindi,3,Agha Khan University Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,6,Shifa International,0,1
+Obstetrics And Gynaecology Rawalpindi,7,E-Shifa,0,1
+Obstetrics And Gynaecology Rawalpindi,8,All Medical Centre,0,1
+Obstetrics And Gynaecology Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,10,Rehman Medical Institute,0,1
+Obstetrics And Gynaecology Rawalpindi,11,Hameed Latif Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,12,Hearts International,1,1
+Obstetrics And Gynaecology Rawalpindi,13,Doctors Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,14,Kulsum International Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,15,Medikay Cardiac Center,0,1
+Obstetrics And Gynaecology Rawalpindi,16,Bahria International Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,17,MMC General Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,18,Northwest General Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,19,South City Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,20,Tabba Heart Institute,0,1
+Obstetrics And Gynaecology Rawalpindi,21,Irfan General Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+Obstetrics And Gynaecology Rawalpindi,24,Hair Transplant Institute,0,1
+Obstetrics And Gynaecology Rawalpindi,25,Cosmetic Expert Clinic,0,1
+Obstetrics And Gynaecology Rawalpindi,26,Concept Fertility Clinic,0,1
+Obstetrics And Gynaecology Rawalpindi,27,NIBD & BMT,0,1
+Obstetrics And Gynaecology Rawalpindi,28,Prime Teaching Hospital,0,1
+Obstetrics And Gynaecology Rawalpindi,29,Horizon,0,1
+Obstetrics And Gynaecology Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+Urology Rawalpindi,1,Pak Emirates Military Hospital (PEMH),0,1
+Urology Rawalpindi,2,MedAsk Tours,0,1
+Urology Rawalpindi,3,Agha Khan University Hospital,0,1
+Urology Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+Urology Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+Urology Rawalpindi,6,Shifa International,0,1
+Urology Rawalpindi,7,E-Shifa,0,1
+Urology Rawalpindi,8,All Medical Centre,0,1
+Urology Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+Urology Rawalpindi,10,Rehman Medical Institute,0,1
+Urology Rawalpindi,11,Hameed Latif Hospital,0,1
+Urology Rawalpindi,12,Hearts International,1,1
+Urology Rawalpindi,13,Doctors Hospital,0,1
+Urology Rawalpindi,14,Kulsum International Hospital,0,1
+Urology Rawalpindi,15,Medikay Cardiac Center,0,1
+Urology Rawalpindi,16,Bahria International Hospital,0,1
+Urology Rawalpindi,17,MMC General Hospital,0,1
+Urology Rawalpindi,18,Northwest General Hospital,0,1
+Urology Rawalpindi,19,South City Hospital,0,1
+Urology Rawalpindi,20,Tabba Heart Institute,0,1
+Urology Rawalpindi,21,Irfan General Hospital,0,1
+Urology Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+Urology Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+Urology Rawalpindi,24,Hair Transplant Institute,0,1
+Urology Rawalpindi,25,Cosmetic Expert Clinic,0,1
+Urology Rawalpindi,26,Concept Fertility Clinic,0,1
+Urology Rawalpindi,27,NIBD & BMT,0,1
+Urology Rawalpindi,28,Prime Teaching Hospital,0,1
+Urology Rawalpindi,29,Horizon,0,1
+Urology Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+Radiology Rawalpindi,1,Pak Emirates Military Hospital (PEMH),0,1
+Radiology Rawalpindi,2,MedAsk Tours,0,1
+Radiology Rawalpindi,3,Agha Khan University Hospital,0,1
+Radiology Rawalpindi,4,Shoukat Khanum M Hospital,0,1
+Radiology Rawalpindi,5,Shoukat Khanum M Hospital,0,1
+Radiology Rawalpindi,6,Shifa International,0,1
+Radiology Rawalpindi,7,E-Shifa,0,1
+Radiology Rawalpindi,8,All Medical Centre,0,1
+Radiology Rawalpindi,9,Quaid-e-Azam International Hospital,0,1
+Radiology Rawalpindi,10,Rehman Medical Institute,0,1
+Radiology Rawalpindi,11,Hameed Latif Hospital,0,1
+Radiology Rawalpindi,12,Hearts International,1,1
+Radiology Rawalpindi,13,Doctors Hospital,0,1
+Radiology Rawalpindi,14,Kulsum International Hospital,0,1
+Radiology Rawalpindi,15,Medikay Cardiac Center,0,1
+Radiology Rawalpindi,16,Bahria International Hospital,0,1
+Radiology Rawalpindi,17,MMC General Hospital,0,1
+Radiology Rawalpindi,18,Northwest General Hospital,0,1
+Radiology Rawalpindi,19,South City Hospital,0,1
+Radiology Rawalpindi,20,Tabba Heart Institute,0,1
+Radiology Rawalpindi,21,Irfan General Hospital,0,1
+Radiology Rawalpindi,22,Dr. Zia uddin Hospital,0,1
+Radiology Rawalpindi,23,Peshawar Institute of Medical Sciences,0,1
+Radiology Rawalpindi,24,Hair Transplant Institute,0,1
+Radiology Rawalpindi,25,Cosmetic Expert Clinic,0,1
+Radiology Rawalpindi,26,Concept Fertility Clinic,0,1
+Radiology Rawalpindi,27,NIBD & BMT,0,1
+Radiology Rawalpindi,28,Prime Teaching Hospital,0,1
+Radiology Rawalpindi,29,Horizon,0,1
+Radiology Rawalpindi,30,Dr. Zia uddin Hospital,0,1
+General Surgery Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+General Surgery Lahore,2,MedAsk Tours,0,1
+General Surgery Lahore,3,Agha Khan University Hospital,0,1
+General Surgery Lahore,4,Shoukat Khanum M Hospital,0,1
+General Surgery Lahore,5,Shoukat Khanum M Hospital,0,1
+General Surgery Lahore,6,Shifa International,0,1
+General Surgery Lahore,7,E-Shifa,0,1
+General Surgery Lahore,8,All Medical Centre,0,1
+General Surgery Lahore,9,Quaid-e-Azam International Hospital,0,1
+General Surgery Lahore,10,Rehman Medical Institute,0,1
+General Surgery Lahore,11,Hameed Latif Hospital,0,1
+General Surgery Lahore,12,Hearts International,0,1
+General Surgery Lahore,13,Doctors Hospital,1,1
+General Surgery Lahore,14,Kulsum International Hospital,0,1
+General Surgery Lahore,15,Medikay Cardiac Center,0,1
+General Surgery Lahore,16,Bahria International Hospital,0,1
+General Surgery Lahore,17,MMC General Hospital,0,1
+General Surgery Lahore,18,Northwest General Hospital,0,1
+General Surgery Lahore,19,South City Hospital,0,1
+General Surgery Lahore,20,Tabba Heart Institute,0,1
+General Surgery Lahore,21,Irfan General Hospital,0,1
+General Surgery Lahore,22,Dr. Zia uddin Hospital,0,1
+General Surgery Lahore,23,Peshawar Institute of Medical Sciences,0,1
+General Surgery Lahore,24,Hair Transplant Institute,0,1
+General Surgery Lahore,25,Cosmetic Expert Clinic,0,1
+General Surgery Lahore,26,Concept Fertility Clinic,0,1
+General Surgery Lahore,27,NIBD & BMT,0,1
+General Surgery Lahore,28,Prime Teaching Hospital,0,1
+General Surgery Lahore,29,Horizon,0,1
+General Surgery Lahore,30,Dr. Zia uddin Hospital,0,1
+Pulmonology Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Pulmonology Lahore,2,MedAsk Tours,0,1
+Pulmonology Lahore,3,Agha Khan University Hospital,0,1
+Pulmonology Lahore,4,Shoukat Khanum M Hospital,0,1
+Pulmonology Lahore,5,Shoukat Khanum M Hospital,0,1
+Pulmonology Lahore,6,Shifa International,0,1
+Pulmonology Lahore,7,E-Shifa,0,1
+Pulmonology Lahore,8,All Medical Centre,0,1
+Pulmonology Lahore,9,Quaid-e-Azam International Hospital,0,1
+Pulmonology Lahore,10,Rehman Medical Institute,0,1
+Pulmonology Lahore,11,Hameed Latif Hospital,0,1
+Pulmonology Lahore,12,Hearts International,0,1
+Pulmonology Lahore,13,Doctors Hospital,1,1
+Pulmonology Lahore,14,Kulsum International Hospital,0,1
+Pulmonology Lahore,15,Medikay Cardiac Center,0,1
+Pulmonology Lahore,16,Bahria International Hospital,0,1
+Pulmonology Lahore,17,MMC General Hospital,0,1
+Pulmonology Lahore,18,Northwest General Hospital,0,1
+Pulmonology Lahore,19,South City Hospital,0,1
+Pulmonology Lahore,20,Tabba Heart Institute,0,1
+Pulmonology Lahore,21,Irfan General Hospital,0,1
+Pulmonology Lahore,22,Dr. Zia uddin Hospital,0,1
+Pulmonology Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Pulmonology Lahore,24,Hair Transplant Institute,0,1
+Pulmonology Lahore,25,Cosmetic Expert Clinic,0,1
+Pulmonology Lahore,26,Concept Fertility Clinic,0,1
+Pulmonology Lahore,27,NIBD & BMT,0,1
+Pulmonology Lahore,28,Prime Teaching Hospital,0,1
+Pulmonology Lahore,29,Horizon,0,1
+Pulmonology Lahore,30,Dr. Zia uddin Hospital,0,1
+Gastroenterology Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Gastroenterology Lahore,2,MedAsk Tours,0,1
+Gastroenterology Lahore,3,Agha Khan University Hospital,0,1
+Gastroenterology Lahore,4,Shoukat Khanum M Hospital,0,1
+Gastroenterology Lahore,5,Shoukat Khanum M Hospital,0,1
+Gastroenterology Lahore,6,Shifa International,0,1
+Gastroenterology Lahore,7,E-Shifa,0,1
+Gastroenterology Lahore,8,All Medical Centre,0,1
+Gastroenterology Lahore,9,Quaid-e-Azam International Hospital,0,1
+Gastroenterology Lahore,10,Rehman Medical Institute,0,1
+Gastroenterology Lahore,11,Hameed Latif Hospital,0,1
+Gastroenterology Lahore,12,Hearts International,0,1
+Gastroenterology Lahore,13,Doctors Hospital,0,1
+Gastroenterology Lahore,14,Kulsum International Hospital,0,1
+Gastroenterology Lahore,15,Medikay Cardiac Center,0,1
+Gastroenterology Lahore,16,Bahria International Hospital,0,1
+Gastroenterology Lahore,17,MMC General Hospital,0,1
+Gastroenterology Lahore,18,Northwest General Hospital,0,1
+Gastroenterology Lahore,19,South City Hospital,0,1
+Gastroenterology Lahore,20,Tabba Heart Institute,0,1
+Gastroenterology Lahore,21,Irfan General Hospital,0,1
+Gastroenterology Lahore,22,Dr. Zia uddin Hospital,0,1
+Gastroenterology Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Gastroenterology Lahore,24,Hair Transplant Institute,0,1
+Gastroenterology Lahore,25,Cosmetic Expert Clinic,0,1
+Gastroenterology Lahore,26,Concept Fertility Clinic,0,1
+Gastroenterology Lahore,27,NIBD & BMT,0,1
+Gastroenterology Lahore,28,Prime Teaching Hospital,0,1
+Gastroenterology Lahore,29,Horizon,0,1
+Gastroenterology Lahore,30,Dr. Zia uddin Hospital,0,1
+Medicines Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Medicines Lahore,2,MedAsk Tours,0,1
+Medicines Lahore,3,Agha Khan University Hospital,0,1
+Medicines Lahore,4,Shoukat Khanum M Hospital,0,1
+Medicines Lahore,5,Shoukat Khanum M Hospital,0,1
+Medicines Lahore,6,Shifa International,0,1
+Medicines Lahore,7,E-Shifa,0,1
+Medicines Lahore,8,All Medical Centre,0,1
+Medicines Lahore,9,Quaid-e-Azam International Hospital,0,1
+Medicines Lahore,10,Rehman Medical Institute,0,1
+Medicines Lahore,11,Hameed Latif Hospital,0,1
+Medicines Lahore,12,Hearts International,0,1
+Medicines Lahore,13,Doctors Hospital,1,1
+Medicines Lahore,14,Kulsum International Hospital,0,1
+Medicines Lahore,15,Medikay Cardiac Center,0,1
+Medicines Lahore,16,Bahria International Hospital,0,1
+Medicines Lahore,17,MMC General Hospital,0,1
+Medicines Lahore,18,Northwest General Hospital,0,1
+Medicines Lahore,19,South City Hospital,0,1
+Medicines Lahore,20,Tabba Heart Institute,0,1
+Medicines Lahore,21,Irfan General Hospital,0,1
+Medicines Lahore,22,Dr. Zia uddin Hospital,0,1
+Medicines Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Medicines Lahore,24,Hair Transplant Institute,0,1
+Medicines Lahore,25,Cosmetic Expert Clinic,0,1
+Medicines Lahore,26,Concept Fertility Clinic,0,1
+Medicines Lahore,27,NIBD & BMT,0,1
+Medicines Lahore,28,Prime Teaching Hospital,0,1
+Medicines Lahore,29,Horizon,0,1
+Medicines Lahore,30,Dr. Zia uddin Hospital,0,1
+Pulmonology Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Pulmonology Islamabad,2,MedAsk Tours,0,1
+Pulmonology Islamabad,3,Agha Khan University Hospital,0,1
+Pulmonology Islamabad,4,Shoukat Khanum M Hospital,0,1
+Pulmonology Islamabad,5,Shoukat Khanum M Hospital,0,1
+Pulmonology Islamabad,6,Shifa International,1,1
+Pulmonology Islamabad,7,E-Shifa,1,1
+Pulmonology Islamabad,8,All Medical Centre,0,1
+Pulmonology Islamabad,9,Quaid-e-Azam International Hospital,0,1
+Pulmonology Islamabad,10,Rehman Medical Institute,0,1
+Pulmonology Islamabad,11,Hameed Latif Hospital,0,1
+Pulmonology Islamabad,12,Hearts International,0,1
+Pulmonology Islamabad,13,Doctors Hospital,0,1
+Pulmonology Islamabad,14,Kulsum International Hospital,1,1
+Pulmonology Islamabad,15,Medikay Cardiac Center,0,1
+Pulmonology Islamabad,16,Bahria International Hospital,0,1
+Pulmonology Islamabad,17,MMC General Hospital,0,1
+Pulmonology Islamabad,18,Northwest General Hospital,0,1
+Pulmonology Islamabad,19,South City Hospital,0,1
+Pulmonology Islamabad,20,Tabba Heart Institute,0,1
+Pulmonology Islamabad,21,Irfan General Hospital,0,1
+Pulmonology Islamabad,22,Dr. Zia uddin Hospital,0,1
+Pulmonology Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Pulmonology Islamabad,24,Hair Transplant Institute,0,1
+Pulmonology Islamabad,25,Cosmetic Expert Clinic,0,1
+Pulmonology Islamabad,26,Concept Fertility Clinic,0,1
+Pulmonology Islamabad,27,NIBD & BMT,0,1
+Pulmonology Islamabad,28,Prime Teaching Hospital,0,1
+Pulmonology Islamabad,29,Horizon,0,1
+Pulmonology Islamabad,30,Dr. Zia uddin Hospital,0,1
+Cardiology Transplant Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Cardiology Transplant Lahore,2,MedAsk Tours,0,1
+Cardiology Transplant Lahore,3,Agha Khan University Hospital,0,1
+Cardiology Transplant Lahore,4,Shoukat Khanum M Hospital,0,1
+Cardiology Transplant Lahore,5,Shoukat Khanum M Hospital,0,1
+Cardiology Transplant Lahore,6,Shifa International,0,1
+Cardiology Transplant Lahore,7,E-Shifa,0,1
+Cardiology Transplant Lahore,8,All Medical Centre,0,1
+Cardiology Transplant Lahore,9,Quaid-e-Azam International Hospital,0,1
+Cardiology Transplant Lahore,10,Rehman Medical Institute,0,1
+Cardiology Transplant Lahore,11,Hameed Latif Hospital,0,1
+Cardiology Transplant Lahore,12,Hearts International,0,1
+Cardiology Transplant Lahore,13,Doctors Hospital,0,1
+Cardiology Transplant Lahore,14,Kulsum International Hospital,0,1
+Cardiology Transplant Lahore,15,Medikay Cardiac Center,0,1
+Cardiology Transplant Lahore,16,Bahria International Hospital,1,1
+Cardiology Transplant Lahore,17,MMC General Hospital,0,1
+Cardiology Transplant Lahore,18,Northwest General Hospital,0,1
+Cardiology Transplant Lahore,19,South City Hospital,0,1
+Cardiology Transplant Lahore,20,Tabba Heart Institute,0,1
+Cardiology Transplant Lahore,21,Irfan General Hospital,0,1
+Cardiology Transplant Lahore,22,Dr. Zia uddin Hospital,0,1
+Cardiology Transplant Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Cardiology Transplant Lahore,24,Hair Transplant Institute,0,1
+Cardiology Transplant Lahore,25,Cosmetic Expert Clinic,0,1
+Cardiology Transplant Lahore,26,Concept Fertility Clinic,0,1
+Cardiology Transplant Lahore,27,NIBD & BMT,0,1
+Cardiology Transplant Lahore,28,Prime Teaching Hospital,0,1
+Cardiology Transplant Lahore,29,Horizon,0,1
+Cardiology Transplant Lahore,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Lahore,2,MedAsk Tours,0,1
+Orthopedics Lahore,3,Agha Khan University Hospital,0,1
+Orthopedics Lahore,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Lahore,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Lahore,6,Shifa International,0,1
+Orthopedics Lahore,7,E-Shifa,0,1
+Orthopedics Lahore,8,All Medical Centre,0,1
+Orthopedics Lahore,9,Quaid-e-Azam International Hospital,0,1
+Orthopedics Lahore,10,Rehman Medical Institute,0,1
+Orthopedics Lahore,11,Hameed Latif Hospital,1,1
+Orthopedics Lahore,12,Hearts International,0,1
+Orthopedics Lahore,13,Doctors Hospital,0,1
+Orthopedics Lahore,14,Kulsum International Hospital,0,1
+Orthopedics Lahore,15,Medikay Cardiac Center,0,1
+Orthopedics Lahore,16,Bahria International Hospital,1,1
+Orthopedics Lahore,17,MMC General Hospital,0,1
+Orthopedics Lahore,18,Northwest General Hospital,0,1
+Orthopedics Lahore,19,South City Hospital,0,1
+Orthopedics Lahore,20,Tabba Heart Institute,0,1
+Orthopedics Lahore,21,Irfan General Hospital,0,1
+Orthopedics Lahore,22,Dr. Zia uddin Hospital,0,1
+Orthopedics Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Lahore,24,Hair Transplant Institute,0,1
+Orthopedics Lahore,25,Cosmetic Expert Clinic,0,1
+Orthopedics Lahore,26,Concept Fertility Clinic,0,1
+Orthopedics Lahore,27,NIBD & BMT,0,1
+Orthopedics Lahore,28,Prime Teaching Hospital,0,1
+Orthopedics Lahore,29,Horizon,0,1
+Orthopedics Lahore,30,Dr. Zia uddin Hospital,0,1
+Otolaryngology Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Otolaryngology Lahore,2,MedAsk Tours,0,1
+Otolaryngology Lahore,3,Agha Khan University Hospital,0,1
+Otolaryngology Lahore,4,Shoukat Khanum M Hospital,0,1
+Otolaryngology Lahore,5,Shoukat Khanum M Hospital,0,1
+Otolaryngology Lahore,6,Shifa International,0,1
+Otolaryngology Lahore,7,E-Shifa,0,1
+Otolaryngology Lahore,8,All Medical Centre,0,1
+Otolaryngology Lahore,9,Quaid-e-Azam International Hospital,0,1
+Otolaryngology Lahore,10,Rehman Medical Institute,0,1
+Otolaryngology Lahore,11,Hameed Latif Hospital,0,1
+Otolaryngology Lahore,12,Hearts International,0,1
+Otolaryngology Lahore,13,Doctors Hospital,0,1
+Otolaryngology Lahore,14,Kulsum International Hospital,0,1
+Otolaryngology Lahore,15,Medikay Cardiac Center,0,1
+Otolaryngology Lahore,16,Bahria International Hospital,0,1
+Otolaryngology Lahore,17,MMC General Hospital,0,1
+Otolaryngology Lahore,18,Northwest General Hospital,0,1
+Otolaryngology Lahore,19,South City Hospital,0,1
+Otolaryngology Lahore,20,Tabba Heart Institute,0,1
+Otolaryngology Lahore,21,Irfan General Hospital,0,1
+Otolaryngology Lahore,22,Dr. Zia uddin Hospital,0,1
+Otolaryngology Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Otolaryngology Lahore,24,Hair Transplant Institute,0,1
+Otolaryngology Lahore,25,Cosmetic Expert Clinic,0,1
+Otolaryngology Lahore,26,Concept Fertility Clinic,0,1
+Otolaryngology Lahore,27,NIBD & BMT,0,1
+Otolaryngology Lahore,28,Prime Teaching Hospital,0,1
+Otolaryngology Lahore,29,Horizon,0,1
+Otolaryngology Lahore,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Peshawar,2,MedAsk Tours,0,1
+Orthopedics Peshawar,3,Agha Khan University Hospital,0,1
+Orthopedics Peshawar,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Peshawar,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Peshawar,6,Shifa International,0,1
+Orthopedics Peshawar,7,E-Shifa,0,1
+Orthopedics Peshawar,8,All Medical Centre,0,1
+Orthopedics Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Orthopedics Peshawar,10,Rehman Medical Institute,1,1
+Orthopedics Peshawar,11,Hameed Latif Hospital,0,1
+Orthopedics Peshawar,12,Hearts International,0,1
+Orthopedics Peshawar,13,Doctors Hospital,0,1
+Orthopedics Peshawar,14,Kulsum International Hospital,0,1
+Orthopedics Peshawar,15,Medikay Cardiac Center,0,1
+Orthopedics Peshawar,16,Bahria International Hospital,0,1
+Orthopedics Peshawar,17,MMC General Hospital,1,1
+Orthopedics Peshawar,18,Northwest General Hospital,0,1
+Orthopedics Peshawar,19,South City Hospital,0,1
+Orthopedics Peshawar,20,Tabba Heart Institute,0,1
+Orthopedics Peshawar,21,Irfan General Hospital,1,1
+Orthopedics Peshawar,22,Dr. Zia uddin Hospital,0,1
+Orthopedics Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Peshawar,24,Hair Transplant Institute,0,1
+Orthopedics Peshawar,25,Cosmetic Expert Clinic,0,1
+Orthopedics Peshawar,26,Concept Fertility Clinic,0,1
+Orthopedics Peshawar,27,NIBD & BMT,0,1
+Orthopedics Peshawar,28,Prime Teaching Hospital,0,1
+Orthopedics Peshawar,29,Horizon,0,1
+Orthopedics Peshawar,30,Dr. Zia uddin Hospital,0,1
+Pediatrics Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Pediatrics Peshawar,2,MedAsk Tours,0,1
+Pediatrics Peshawar,3,Agha Khan University Hospital,0,1
+Pediatrics Peshawar,4,Shoukat Khanum M Hospital,0,1
+Pediatrics Peshawar,5,Shoukat Khanum M Hospital,0,1
+Pediatrics Peshawar,6,Shifa International,0,1
+Pediatrics Peshawar,7,E-Shifa,0,1
+Pediatrics Peshawar,8,All Medical Centre,0,1
+Pediatrics Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Pediatrics Peshawar,10,Rehman Medical Institute,0,1
+Pediatrics Peshawar,11,Hameed Latif Hospital,0,1
+Pediatrics Peshawar,12,Hearts International,0,1
+Pediatrics Peshawar,13,Doctors Hospital,0,1
+Pediatrics Peshawar,14,Kulsum International Hospital,0,1
+Pediatrics Peshawar,15,Medikay Cardiac Center,0,1
+Pediatrics Peshawar,16,Bahria International Hospital,0,1
+Pediatrics Peshawar,17,MMC General Hospital,1,1
+Pediatrics Peshawar,18,Northwest General Hospital,0,1
+Pediatrics Peshawar,19,South City Hospital,0,1
+Pediatrics Peshawar,20,Tabba Heart Institute,0,1
+Pediatrics Peshawar,21,Irfan General Hospital,0,1
+Pediatrics Peshawar,22,Dr. Zia uddin Hospital,0,1
+Pediatrics Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Pediatrics Peshawar,24,Hair Transplant Institute,0,1
+Pediatrics Peshawar,25,Cosmetic Expert Clinic,0,1
+Pediatrics Peshawar,26,Concept Fertility Clinic,0,1
+Pediatrics Peshawar,27,NIBD & BMT,0,1
+Pediatrics Peshawar,28,Prime Teaching Hospital,0,1
+Pediatrics Peshawar,29,Horizon,0,1
+Pediatrics Peshawar,30,Dr. Zia uddin Hospital,0,1
+Urology Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Urology Peshawar,2,MedAsk Tours,0,1
+Urology Peshawar,3,Agha Khan University Hospital,0,1
+Urology Peshawar,4,Shoukat Khanum M Hospital,0,1
+Urology Peshawar,5,Shoukat Khanum M Hospital,0,1
+Urology Peshawar,6,Shifa International,0,1
+Urology Peshawar,7,E-Shifa,0,1
+Urology Peshawar,8,All Medical Centre,0,1
+Urology Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Urology Peshawar,10,Rehman Medical Institute,0,1
+Urology Peshawar,11,Hameed Latif Hospital,0,1
+Urology Peshawar,12,Hearts International,0,1
+Urology Peshawar,13,Doctors Hospital,0,1
+Urology Peshawar,14,Kulsum International Hospital,0,1
+Urology Peshawar,15,Medikay Cardiac Center,0,1
+Urology Peshawar,16,Bahria International Hospital,0,1
+Urology Peshawar,17,MMC General Hospital,1,1
+Urology Peshawar,18,Northwest General Hospital,0,1
+Urology Peshawar,19,South City Hospital,0,1
+Urology Peshawar,20,Tabba Heart Institute,0,1
+Urology Peshawar,21,Irfan General Hospital,0,1
+Urology Peshawar,22,Dr. Zia uddin Hospital,0,1
+Urology Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Urology Peshawar,24,Hair Transplant Institute,0,1
+Urology Peshawar,25,Cosmetic Expert Clinic,0,1
+Urology Peshawar,26,Concept Fertility Clinic,0,1
+Urology Peshawar,27,NIBD & BMT,0,1
+Urology Peshawar,28,Prime Teaching Hospital,1,1
+Urology Peshawar,29,Horizon,0,1
+Urology Peshawar,30,Dr. Zia uddin Hospital,0,1
+Radiology Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Radiology Peshawar,2,MedAsk Tours,0,1
+Radiology Peshawar,3,Agha Khan University Hospital,0,1
+Radiology Peshawar,4,Shoukat Khanum M Hospital,0,1
+Radiology Peshawar,5,Shoukat Khanum M Hospital,0,1
+Radiology Peshawar,6,Shifa International,0,1
+Radiology Peshawar,7,E-Shifa,0,1
+Radiology Peshawar,8,All Medical Centre,0,1
+Radiology Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Radiology Peshawar,10,Rehman Medical Institute,0,1
+Radiology Peshawar,11,Hameed Latif Hospital,0,1
+Radiology Peshawar,12,Hearts International,0,1
+Radiology Peshawar,13,Doctors Hospital,0,1
+Radiology Peshawar,14,Kulsum International Hospital,0,1
+Radiology Peshawar,15,Medikay Cardiac Center,0,1
+Radiology Peshawar,16,Bahria International Hospital,0,1
+Radiology Peshawar,17,MMC General Hospital,0,1
+Radiology Peshawar,18,Northwest General Hospital,0,1
+Radiology Peshawar,19,South City Hospital,0,1
+Radiology Peshawar,20,Tabba Heart Institute,0,1
+Radiology Peshawar,21,Irfan General Hospital,0,1
+Radiology Peshawar,22,Dr. Zia uddin Hospital,0,1
+Radiology Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Radiology Peshawar,24,Hair Transplant Institute,0,1
+Radiology Peshawar,25,Cosmetic Expert Clinic,0,1
+Radiology Peshawar,26,Concept Fertility Clinic,0,1
+Radiology Peshawar,27,NIBD & BMT,0,1
+Radiology Peshawar,28,Prime Teaching Hospital,0,1
+Radiology Peshawar,29,Horizon,0,1
+Radiology Peshawar,30,Dr. Zia uddin Hospital,0,1
+Pulmonology Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Pulmonology Peshawar,2,MedAsk Tours,0,1
+Pulmonology Peshawar,3,Agha Khan University Hospital,0,1
+Pulmonology Peshawar,4,Shoukat Khanum M Hospital,0,1
+Pulmonology Peshawar,5,Shoukat Khanum M Hospital,0,1
+Pulmonology Peshawar,6,Shifa International,0,1
+Pulmonology Peshawar,7,E-Shifa,0,1
+Pulmonology Peshawar,8,All Medical Centre,0,1
+Pulmonology Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Pulmonology Peshawar,10,Rehman Medical Institute,0,1
+Pulmonology Peshawar,11,Hameed Latif Hospital,0,1
+Pulmonology Peshawar,12,Hearts International,0,1
+Pulmonology Peshawar,13,Doctors Hospital,0,1
+Pulmonology Peshawar,14,Kulsum International Hospital,0,1
+Pulmonology Peshawar,15,Medikay Cardiac Center,0,1
+Pulmonology Peshawar,16,Bahria International Hospital,0,1
+Pulmonology Peshawar,17,MMC General Hospital,0,1
+Pulmonology Peshawar,18,Northwest General Hospital,1,1
+Pulmonology Peshawar,19,South City Hospital,0,1
+Pulmonology Peshawar,20,Tabba Heart Institute,0,1
+Pulmonology Peshawar,21,Irfan General Hospital,0,1
+Pulmonology Peshawar,22,Dr. Zia uddin Hospital,0,1
+Pulmonology Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Pulmonology Peshawar,24,Hair Transplant Institute,0,1
+Pulmonology Peshawar,25,Cosmetic Expert Clinic,0,1
+Pulmonology Peshawar,26,Concept Fertility Clinic,0,1
+Pulmonology Peshawar,27,NIBD & BMT,0,1
+Pulmonology Peshawar,28,Prime Teaching Hospital,0,1
+Pulmonology Peshawar,29,Horizon,0,1
+Pulmonology Peshawar,30,Dr. Zia uddin Hospital,0,1
+Orthopedics Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Karachi,2,MedAsk Tours,0,1
+Orthopedics Karachi,3,Agha Khan University Hospital,1,1
+Orthopedics Karachi,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Karachi,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Karachi,6,Shifa International,0,1
+Orthopedics Karachi,7,E-Shifa,0,1
+Orthopedics Karachi,8,All Medical Centre,0,1
+Orthopedics Karachi,9,Quaid-e-Azam International Hospital,0,1
+Orthopedics Karachi,10,Rehman Medical Institute,0,1
+Orthopedics Karachi,11,Hameed Latif Hospital,0,1
+Orthopedics Karachi,12,Hearts International,0,1
+Orthopedics Karachi,13,Doctors Hospital,0,1
+Orthopedics Karachi,14,Kulsum International Hospital,0,1
+Orthopedics Karachi,15,Medikay Cardiac Center,0,1
+Orthopedics Karachi,16,Bahria International Hospital,0,1
+Orthopedics Karachi,17,MMC General Hospital,0,1
+Orthopedics Karachi,18,Northwest General Hospital,0,1
+Orthopedics Karachi,19,South City Hospital,1,1
+Orthopedics Karachi,20,Tabba Heart Institute,0,1
+Orthopedics Karachi,21,Irfan General Hospital,0,1
+Orthopedics Karachi,22,Dr. Zia uddin Hospital,1,1
+Orthopedics Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Karachi,24,Hair Transplant Institute,0,1
+Orthopedics Karachi,25,Cosmetic Expert Clinic,0,1
+Orthopedics Karachi,26,Concept Fertility Clinic,0,1
+Orthopedics Karachi,27,NIBD & BMT,0,1
+Orthopedics Karachi,28,Prime Teaching Hospital,0,1
+Orthopedics Karachi,29,Horizon,0,1
+Orthopedics Karachi,30,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Obstetrics And Gynaecology Karachi,2,MedAsk Tours,0,1
+Obstetrics And Gynaecology Karachi,3,Agha Khan University Hospital,0,1
+Obstetrics And Gynaecology Karachi,4,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Karachi,5,Shoukat Khanum M Hospital,0,1
+Obstetrics And Gynaecology Karachi,6,Shifa International,0,1
+Obstetrics And Gynaecology Karachi,7,E-Shifa,0,1
+Obstetrics And Gynaecology Karachi,8,All Medical Centre,0,1
+Obstetrics And Gynaecology Karachi,9,Quaid-e-Azam International Hospital,0,1
+Obstetrics And Gynaecology Karachi,10,Rehman Medical Institute,0,1
+Obstetrics And Gynaecology Karachi,11,Hameed Latif Hospital,0,1
+Obstetrics And Gynaecology Karachi,12,Hearts International,0,1
+Obstetrics And Gynaecology Karachi,13,Doctors Hospital,0,1
+Obstetrics And Gynaecology Karachi,14,Kulsum International Hospital,0,1
+Obstetrics And Gynaecology Karachi,15,Medikay Cardiac Center,0,1
+Obstetrics And Gynaecology Karachi,16,Bahria International Hospital,0,1
+Obstetrics And Gynaecology Karachi,17,MMC General Hospital,0,1
+Obstetrics And Gynaecology Karachi,18,Northwest General Hospital,0,1
+Obstetrics And Gynaecology Karachi,19,South City Hospital,1,1
+Obstetrics And Gynaecology Karachi,20,Tabba Heart Institute,0,1
+Obstetrics And Gynaecology Karachi,21,Irfan General Hospital,0,1
+Obstetrics And Gynaecology Karachi,22,Dr. Zia uddin Hospital,0,1
+Obstetrics And Gynaecology Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Obstetrics And Gynaecology Karachi,24,Hair Transplant Institute,0,1
+Obstetrics And Gynaecology Karachi,25,Cosmetic Expert Clinic,0,1
+Obstetrics And Gynaecology Karachi,26,Concept Fertility Clinic,0,1
+Obstetrics And Gynaecology Karachi,27,NIBD & BMT,0,1
+Obstetrics And Gynaecology Karachi,28,Prime Teaching Hospital,0,1
+Obstetrics And Gynaecology Karachi,29,Horizon,0,1
+Obstetrics And Gynaecology Karachi,30,Dr. Zia uddin Hospital,0,1
+General Surgery Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+General Surgery Karachi,2,MedAsk Tours,0,1
+General Surgery Karachi,3,Agha Khan University Hospital,0,1
+General Surgery Karachi,4,Shoukat Khanum M Hospital,0,1
+General Surgery Karachi,5,Shoukat Khanum M Hospital,0,1
+General Surgery Karachi,6,Shifa International,0,1
+General Surgery Karachi,7,E-Shifa,0,1
+General Surgery Karachi,8,All Medical Centre,0,1
+General Surgery Karachi,9,Quaid-e-Azam International Hospital,0,1
+General Surgery Karachi,10,Rehman Medical Institute,0,1
+General Surgery Karachi,11,Hameed Latif Hospital,0,1
+General Surgery Karachi,12,Hearts International,0,1
+General Surgery Karachi,13,Doctors Hospital,0,1
+General Surgery Karachi,14,Kulsum International Hospital,0,1
+General Surgery Karachi,15,Medikay Cardiac Center,0,1
+General Surgery Karachi,16,Bahria International Hospital,0,1
+General Surgery Karachi,17,MMC General Hospital,0,1
+General Surgery Karachi,18,Northwest General Hospital,0,1
+General Surgery Karachi,19,South City Hospital,1,1
+General Surgery Karachi,20,Tabba Heart Institute,0,1
+General Surgery Karachi,21,Irfan General Hospital,0,1
+General Surgery Karachi,22,Dr. Zia uddin Hospital,0,1
+General Surgery Karachi,23,Peshawar Institute of Medical Sciences,0,1
+General Surgery Karachi,24,Hair Transplant Institute,0,1
+General Surgery Karachi,25,Cosmetic Expert Clinic,0,1
+General Surgery Karachi,26,Concept Fertility Clinic,0,1
+General Surgery Karachi,27,NIBD & BMT,0,1
+General Surgery Karachi,28,Prime Teaching Hospital,0,1
+General Surgery Karachi,29,Horizon,0,1
+General Surgery Karachi,30,Dr. Zia uddin Hospital,0,1
+Neurosurgery Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Neurosurgery Peshawar,2,MedAsk Tours,0,1
+Neurosurgery Peshawar,3,Agha Khan University Hospital,0,1
+Neurosurgery Peshawar,4,Shoukat Khanum M Hospital,0,1
+Neurosurgery Peshawar,5,Shoukat Khanum M Hospital,0,1
+Neurosurgery Peshawar,6,Shifa International,0,1
+Neurosurgery Peshawar,7,E-Shifa,0,1
+Neurosurgery Peshawar,8,All Medical Centre,0,1
+Neurosurgery Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Neurosurgery Peshawar,10,Rehman Medical Institute,0,1
+Neurosurgery Peshawar,11,Hameed Latif Hospital,0,1
+Neurosurgery Peshawar,12,Hearts International,0,1
+Neurosurgery Peshawar,13,Doctors Hospital,0,1
+Neurosurgery Peshawar,14,Kulsum International Hospital,0,1
+Neurosurgery Peshawar,15,Medikay Cardiac Center,0,1
+Neurosurgery Peshawar,16,Bahria International Hospital,0,1
+Neurosurgery Peshawar,17,MMC General Hospital,0,1
+Neurosurgery Peshawar,18,Northwest General Hospital,0,1
+Neurosurgery Peshawar,19,South City Hospital,0,1
+Neurosurgery Peshawar,20,Tabba Heart Institute,0,1
+Neurosurgery Peshawar,21,Irfan General Hospital,1,1
+Neurosurgery Peshawar,22,Dr. Zia uddin Hospital,0,1
+Neurosurgery Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Neurosurgery Peshawar,24,Hair Transplant Institute,0,1
+Neurosurgery Peshawar,25,Cosmetic Expert Clinic,0,1
+Neurosurgery Peshawar,26,Concept Fertility Clinic,0,1
+Neurosurgery Peshawar,27,NIBD & BMT,0,1
+Neurosurgery Peshawar,28,Prime Teaching Hospital,1,1
+Neurosurgery Peshawar,29,Horizon,0,1
+Neurosurgery Peshawar,30,Dr. Zia uddin Hospital,0,1
+ENT Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+ENT Peshawar,2,MedAsk Tours,0,1
+ENT Peshawar,3,Agha Khan University Hospital,0,1
+ENT Peshawar,4,Shoukat Khanum M Hospital,0,1
+ENT Peshawar,5,Shoukat Khanum M Hospital,1,1
+ENT Peshawar,6,Shifa International,0,1
+ENT Peshawar,7,E-Shifa,0,1
+ENT Peshawar,8,All Medical Centre,0,1
+ENT Peshawar,9,Quaid-e-Azam International Hospital,0,1
+ENT Peshawar,10,Rehman Medical Institute,1,1
+ENT Peshawar,11,Hameed Latif Hospital,0,1
+ENT Peshawar,12,Hearts International,0,1
+ENT Peshawar,13,Doctors Hospital,0,1
+ENT Peshawar,14,Kulsum International Hospital,0,1
+ENT Peshawar,15,Medikay Cardiac Center,0,1
+ENT Peshawar,16,Bahria International Hospital,0,1
+ENT Peshawar,17,MMC General Hospital,0,1
+ENT Peshawar,18,Northwest General Hospital,0,1
+ENT Peshawar,19,South City Hospital,0,1
+ENT Peshawar,20,Tabba Heart Institute,0,1
+ENT Peshawar,21,Irfan General Hospital,0,1
+ENT Peshawar,22,Dr. Zia uddin Hospital,0,1
+ENT Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+ENT Peshawar,24,Hair Transplant Institute,0,1
+ENT Peshawar,25,Cosmetic Expert Clinic,0,1
+ENT Peshawar,26,Concept Fertility Clinic,0,1
+ENT Peshawar,27,NIBD & BMT,0,1
+ENT Peshawar,28,Prime Teaching Hospital,1,1
+ENT Peshawar,29,Horizon,0,1
+ENT Peshawar,30,Dr. Zia uddin Hospital,0,1
+ENT Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+ENT Karachi,2,MedAsk Tours,0,1
+ENT Karachi,3,Agha Khan University Hospital,1,1
+ENT Karachi,4,Shoukat Khanum M Hospital,0,1
+ENT Karachi,5,Shoukat Khanum M Hospital,0,1
+ENT Karachi,6,Shifa International,0,1
+ENT Karachi,7,E-Shifa,0,1
+ENT Karachi,8,All Medical Centre,0,1
+ENT Karachi,9,Quaid-e-Azam International Hospital,0,1
+ENT Karachi,10,Rehman Medical Institute,0,1
+ENT Karachi,11,Hameed Latif Hospital,0,1
+ENT Karachi,12,Hearts International,0,1
+ENT Karachi,13,Doctors Hospital,0,1
+ENT Karachi,14,Kulsum International Hospital,0,1
+ENT Karachi,15,Medikay Cardiac Center,0,1
+ENT Karachi,16,Bahria International Hospital,0,1
+ENT Karachi,17,MMC General Hospital,0,1
+ENT Karachi,18,Northwest General Hospital,0,1
+ENT Karachi,19,South City Hospital,0,1
+ENT Karachi,20,Tabba Heart Institute,0,1
+ENT Karachi,21,Irfan General Hospital,0,1
+ENT Karachi,22,Dr. Zia uddin Hospital,0,1
+ENT Karachi,23,Peshawar Institute of Medical Sciences,0,1
+ENT Karachi,24,Hair Transplant Institute,0,1
+ENT Karachi,25,Cosmetic Expert Clinic,0,1
+ENT Karachi,26,Concept Fertility Clinic,0,1
+ENT Karachi,27,NIBD & BMT,1,1
+ENT Karachi,28,Prime Teaching Hospital,0,1
+ENT Karachi,29,Horizon,0,1
+ENT Karachi,30,Dr. Zia uddin Hospital,0,1
+Physiotherapy Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Physiotherapy Karachi,2,MedAsk Tours,0,1
+Physiotherapy Karachi,3,Agha Khan University Hospital,0,1
+Physiotherapy Karachi,4,Shoukat Khanum M Hospital,0,1
+Physiotherapy Karachi,5,Shoukat Khanum M Hospital,0,1
+Physiotherapy Karachi,6,Shifa International,0,1
+Physiotherapy Karachi,7,E-Shifa,0,1
+Physiotherapy Karachi,8,All Medical Centre,0,1
+Physiotherapy Karachi,9,Quaid-e-Azam International Hospital,0,1
+Physiotherapy Karachi,10,Rehman Medical Institute,0,1
+Physiotherapy Karachi,11,Hameed Latif Hospital,0,1
+Physiotherapy Karachi,12,Hearts International,0,1
+Physiotherapy Karachi,13,Doctors Hospital,0,1
+Physiotherapy Karachi,14,Kulsum International Hospital,0,1
+Physiotherapy Karachi,15,Medikay Cardiac Center,0,1
+Physiotherapy Karachi,16,Bahria International Hospital,0,1
+Physiotherapy Karachi,17,MMC General Hospital,0,1
+Physiotherapy Karachi,18,Northwest General Hospital,0,1
+Physiotherapy Karachi,19,South City Hospital,0,1
+Physiotherapy Karachi,20,Tabba Heart Institute,0,1
+Physiotherapy Karachi,21,Irfan General Hospital,0,1
+Physiotherapy Karachi,22,Dr. Zia uddin Hospital,1,1
+Physiotherapy Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Physiotherapy Karachi,24,Hair Transplant Institute,0,1
+Physiotherapy Karachi,25,Cosmetic Expert Clinic,0,1
+Physiotherapy Karachi,26,Concept Fertility Clinic,0,1
+Physiotherapy Karachi,27,NIBD & BMT,0,1
+Physiotherapy Karachi,28,Prime Teaching Hospital,0,1
+Physiotherapy Karachi,29,Horizon,0,1
+Physiotherapy Karachi,30,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Islamabad,1,Pak Emirates Military Hospital (PEMH),0,1
+Cosmetic Surgery Islamabad,2,MedAsk Tours,0,1
+Cosmetic Surgery Islamabad,3,Agha Khan University Hospital,0,1
+Cosmetic Surgery Islamabad,4,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Islamabad,5,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Islamabad,6,Shifa International,1,1
+Cosmetic Surgery Islamabad,7,E-Shifa,1,1
+Cosmetic Surgery Islamabad,8,All Medical Centre,0,1
+Cosmetic Surgery Islamabad,9,Quaid-e-Azam International Hospital,0,1
+Cosmetic Surgery Islamabad,10,Rehman Medical Institute,0,1
+Cosmetic Surgery Islamabad,11,Hameed Latif Hospital,0,1
+Cosmetic Surgery Islamabad,12,Hearts International,0,1
+Cosmetic Surgery Islamabad,13,Doctors Hospital,0,1
+Cosmetic Surgery Islamabad,14,Kulsum International Hospital,0,1
+Cosmetic Surgery Islamabad,15,Medikay Cardiac Center,0,1
+Cosmetic Surgery Islamabad,16,Bahria International Hospital,0,1
+Cosmetic Surgery Islamabad,17,MMC General Hospital,0,1
+Cosmetic Surgery Islamabad,18,Northwest General Hospital,0,1
+Cosmetic Surgery Islamabad,19,South City Hospital,0,1
+Cosmetic Surgery Islamabad,20,Tabba Heart Institute,0,1
+Cosmetic Surgery Islamabad,21,Irfan General Hospital,0,1
+Cosmetic Surgery Islamabad,22,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Islamabad,23,Peshawar Institute of Medical Sciences,0,1
+Cosmetic Surgery Islamabad,24,Hair Transplant Institute,1,1
+Cosmetic Surgery Islamabad,25,Cosmetic Expert Clinic,0,1
+Cosmetic Surgery Islamabad,26,Concept Fertility Clinic,0,1
+Cosmetic Surgery Islamabad,27,NIBD & BMT,0,1
+Cosmetic Surgery Islamabad,28,Prime Teaching Hospital,0,1
+Cosmetic Surgery Islamabad,29,Horizon,0,1
+Cosmetic Surgery Islamabad,30,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Cosmetic Surgery Peshawar,2,MedAsk Tours,0,1
+Cosmetic Surgery Peshawar,3,Agha Khan University Hospital,0,1
+Cosmetic Surgery Peshawar,4,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Peshawar,5,Shoukat Khanum M Hospital,0,1
+Cosmetic Surgery Peshawar,6,Shifa International,0,1
+Cosmetic Surgery Peshawar,7,E-Shifa,0,1
+Cosmetic Surgery Peshawar,8,All Medical Centre,0,1
+Cosmetic Surgery Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Cosmetic Surgery Peshawar,10,Rehman Medical Institute,0,1
+Cosmetic Surgery Peshawar,11,Hameed Latif Hospital,0,1
+Cosmetic Surgery Peshawar,12,Hearts International,0,1
+Cosmetic Surgery Peshawar,13,Doctors Hospital,0,1
+Cosmetic Surgery Peshawar,14,Kulsum International Hospital,0,1
+Cosmetic Surgery Peshawar,15,Medikay Cardiac Center,0,1
+Cosmetic Surgery Peshawar,16,Bahria International Hospital,0,1
+Cosmetic Surgery Peshawar,17,MMC General Hospital,0,1
+Cosmetic Surgery Peshawar,18,Northwest General Hospital,0,1
+Cosmetic Surgery Peshawar,19,South City Hospital,0,1
+Cosmetic Surgery Peshawar,20,Tabba Heart Institute,0,1
+Cosmetic Surgery Peshawar,21,Irfan General Hospital,0,1
+Cosmetic Surgery Peshawar,22,Dr. Zia uddin Hospital,0,1
+Cosmetic Surgery Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Cosmetic Surgery Peshawar,24,Hair Transplant Institute,0,1
+Cosmetic Surgery Peshawar,25,Cosmetic Expert Clinic,1,1
+Cosmetic Surgery Peshawar,26,Concept Fertility Clinic,0,1
+Cosmetic Surgery Peshawar,27,NIBD & BMT,0,1
+Cosmetic Surgery Peshawar,28,Prime Teaching Hospital,0,1
+Cosmetic Surgery Peshawar,29,Horizon,0,1
+Cosmetic Surgery Peshawar,30,Dr. Zia uddin Hospital,0,1
+Reproductive Medicine Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Reproductive Medicine Karachi,2,MedAsk Tours,0,1
+Reproductive Medicine Karachi,3,Agha Khan University Hospital,0,1
+Reproductive Medicine Karachi,4,Shoukat Khanum M Hospital,0,1
+Reproductive Medicine Karachi,5,Shoukat Khanum M Hospital,0,1
+Reproductive Medicine Karachi,6,Shifa International,0,1
+Reproductive Medicine Karachi,7,E-Shifa,0,1
+Reproductive Medicine Karachi,8,All Medical Centre,0,1
+Reproductive Medicine Karachi,9,Quaid-e-Azam International Hospital,0,1
+Reproductive Medicine Karachi,10,Rehman Medical Institute,0,1
+Reproductive Medicine Karachi,11,Hameed Latif Hospital,0,1
+Reproductive Medicine Karachi,12,Hearts International,0,1
+Reproductive Medicine Karachi,13,Doctors Hospital,0,1
+Reproductive Medicine Karachi,14,Kulsum International Hospital,0,1
+Reproductive Medicine Karachi,15,Medikay Cardiac Center,0,1
+Reproductive Medicine Karachi,16,Bahria International Hospital,0,1
+Reproductive Medicine Karachi,17,MMC General Hospital,0,1
+Reproductive Medicine Karachi,18,Northwest General Hospital,0,1
+Reproductive Medicine Karachi,19,South City Hospital,0,1
+Reproductive Medicine Karachi,20,Tabba Heart Institute,0,1
+Reproductive Medicine Karachi,21,Irfan General Hospital,0,1
+Reproductive Medicine Karachi,22,Dr. Zia uddin Hospital,0,1
+Reproductive Medicine Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Reproductive Medicine Karachi,24,Hair Transplant Institute,0,1
+Reproductive Medicine Karachi,25,Cosmetic Expert Clinic,0,1
+Reproductive Medicine Karachi,26,Concept Fertility Clinic,1,1
+Reproductive Medicine Karachi,27,NIBD & BMT,0,1
+Reproductive Medicine Karachi,28,Prime Teaching Hospital,0,1
+Reproductive Medicine Karachi,29,Horizon,0,1
+Reproductive Medicine Karachi,30,Dr. Zia uddin Hospital,0,1
+Bone Marrow Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Bone Marrow Karachi,2,MedAsk Tours,0,1
+Bone Marrow Karachi,3,Agha Khan University Hospital,0,1
+Bone Marrow Karachi,4,Shoukat Khanum M Hospital,0,1
+Bone Marrow Karachi,5,Shoukat Khanum M Hospital,0,1
+Bone Marrow Karachi,6,Shifa International,0,1
+Bone Marrow Karachi,7,E-Shifa,0,1
+Bone Marrow Karachi,8,All Medical Centre,0,1
+Bone Marrow Karachi,9,Quaid-e-Azam International Hospital,0,1
+Bone Marrow Karachi,10,Rehman Medical Institute,0,1
+Bone Marrow Karachi,11,Hameed Latif Hospital,0,1
+Bone Marrow Karachi,12,Hearts International,0,1
+Bone Marrow Karachi,13,Doctors Hospital,0,1
+Bone Marrow Karachi,14,Kulsum International Hospital,0,1
+Bone Marrow Karachi,15,Medikay Cardiac Center,0,1
+Bone Marrow Karachi,16,Bahria International Hospital,0,1
+Bone Marrow Karachi,17,MMC General Hospital,0,1
+Bone Marrow Karachi,18,Northwest General Hospital,0,1
+Bone Marrow Karachi,19,South City Hospital,0,1
+Bone Marrow Karachi,20,Tabba Heart Institute,0,1
+Bone Marrow Karachi,21,Irfan General Hospital,0,1
+Bone Marrow Karachi,22,Dr. Zia uddin Hospital,0,1
+Bone Marrow Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Bone Marrow Karachi,24,Hair Transplant Institute,0,1
+Bone Marrow Karachi,25,Cosmetic Expert Clinic,0,1
+Bone Marrow Karachi,26,Concept Fertility Clinic,0,1
+Bone Marrow Karachi,27,NIBD & BMT,1,1
+Bone Marrow Karachi,28,Prime Teaching Hospital,0,1
+Bone Marrow Karachi,29,Horizon,0,1
+Bone Marrow Karachi,30,Dr. Zia uddin Hospital,0,1
+Transplant Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Transplant Karachi,2,MedAsk Tours,0,1
+Transplant Karachi,3,Agha Khan University Hospital,0,1
+Transplant Karachi,4,Shoukat Khanum M Hospital,0,1
+Transplant Karachi,5,Shoukat Khanum M Hospital,0,1
+Transplant Karachi,6,Shifa International,0,1
+Transplant Karachi,7,E-Shifa,0,1
+Transplant Karachi,8,All Medical Centre,0,1
+Transplant Karachi,9,Quaid-e-Azam International Hospital,0,1
+Transplant Karachi,10,Rehman Medical Institute,0,1
+Transplant Karachi,11,Hameed Latif Hospital,0,1
+Transplant Karachi,12,Hearts International,0,1
+Transplant Karachi,13,Doctors Hospital,0,1
+Transplant Karachi,14,Kulsum International Hospital,0,1
+Transplant Karachi,15,Medikay Cardiac Center,0,1
+Transplant Karachi,16,Bahria International Hospital,0,1
+Transplant Karachi,17,MMC General Hospital,0,1
+Transplant Karachi,18,Northwest General Hospital,0,1
+Transplant Karachi,19,South City Hospital,0,1
+Transplant Karachi,20,Tabba Heart Institute,0,1
+Transplant Karachi,21,Irfan General Hospital,0,1
+Transplant Karachi,22,Dr. Zia uddin Hospital,0,1
+Transplant Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Transplant Karachi,24,Hair Transplant Institute,0,1
+Transplant Karachi,25,Cosmetic Expert Clinic,0,1
+Transplant Karachi,26,Concept Fertility Clinic,0,1
+Transplant Karachi,27,NIBD & BMT,1,1
+Transplant Karachi,28,Prime Teaching Hospital,0,1
+Transplant Karachi,29,Horizon,0,1
+Transplant Karachi,30,Dr. Zia uddin Hospital,1,1
+Hematology Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Hematology Karachi,2,MedAsk Tours,0,1
+Hematology Karachi,3,Agha Khan University Hospital,0,1
+Hematology Karachi,4,Shoukat Khanum M Hospital,0,1
+Hematology Karachi,5,Shoukat Khanum M Hospital,0,1
+Hematology Karachi,6,Shifa International,0,1
+Hematology Karachi,7,E-Shifa,0,1
+Hematology Karachi,8,All Medical Centre,0,1
+Hematology Karachi,9,Quaid-e-Azam International Hospital,0,1
+Hematology Karachi,10,Rehman Medical Institute,0,1
+Hematology Karachi,11,Hameed Latif Hospital,0,1
+Hematology Karachi,12,Hearts International,0,1
+Hematology Karachi,13,Doctors Hospital,0,1
+Hematology Karachi,14,Kulsum International Hospital,0,1
+Hematology Karachi,15,Medikay Cardiac Center,0,1
+Hematology Karachi,16,Bahria International Hospital,0,1
+Hematology Karachi,17,MMC General Hospital,0,1
+Hematology Karachi,18,Northwest General Hospital,0,1
+Hematology Karachi,19,South City Hospital,0,1
+Hematology Karachi,20,Tabba Heart Institute,0,1
+Hematology Karachi,21,Irfan General Hospital,0,1
+Hematology Karachi,22,Dr. Zia uddin Hospital,0,1
+Hematology Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Hematology Karachi,24,Hair Transplant Institute,0,1
+Hematology Karachi,25,Cosmetic Expert Clinic,0,1
+Hematology Karachi,26,Concept Fertility Clinic,0,1
+Hematology Karachi,27,NIBD & BMT,1,1
+Hematology Karachi,28,Prime Teaching Hospital,0,1
+Hematology Karachi,29,Horizon,0,1
+Hematology Karachi,30,Dr. Zia uddin Hospital,0,1
+Cancer Treatment Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Cancer Treatment Karachi,2,MedAsk Tours,0,1
+Cancer Treatment Karachi,3,Agha Khan University Hospital,0,1
+Cancer Treatment Karachi,4,Shoukat Khanum M Hospital,0,1
+Cancer Treatment Karachi,5,Shoukat Khanum M Hospital,0,1
+Cancer Treatment Karachi,6,Shifa International,0,1
+Cancer Treatment Karachi,7,E-Shifa,0,1
+Cancer Treatment Karachi,8,All Medical Centre,0,1
+Cancer Treatment Karachi,9,Quaid-e-Azam International Hospital,0,1
+Cancer Treatment Karachi,10,Rehman Medical Institute,0,1
+Cancer Treatment Karachi,11,Hameed Latif Hospital,0,1
+Cancer Treatment Karachi,12,Hearts International,0,1
+Cancer Treatment Karachi,13,Doctors Hospital,0,1
+Cancer Treatment Karachi,14,Kulsum International Hospital,0,1
+Cancer Treatment Karachi,15,Medikay Cardiac Center,0,1
+Cancer Treatment Karachi,16,Bahria International Hospital,0,1
+Cancer Treatment Karachi,17,MMC General Hospital,0,1
+Cancer Treatment Karachi,18,Northwest General Hospital,0,1
+Cancer Treatment Karachi,19,South City Hospital,0,1
+Cancer Treatment Karachi,20,Tabba Heart Institute,0,1
+Cancer Treatment Karachi,21,Irfan General Hospital,0,1
+Cancer Treatment Karachi,22,Dr. Zia uddin Hospital,0,1
+Cancer Treatment Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Cancer Treatment Karachi,24,Hair Transplant Institute,0,1
+Cancer Treatment Karachi,25,Cosmetic Expert Clinic,0,1
+Cancer Treatment Karachi,26,Concept Fertility Clinic,0,1
+Cancer Treatment Karachi,27,NIBD & BMT,1,1
+Cancer Treatment Karachi,28,Prime Teaching Hospital,0,1
+Cancer Treatment Karachi,29,Horizon,0,1
+Cancer Treatment Karachi,30,Dr. Zia uddin Hospital,0,1
+Obesity Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Obesity Peshawar,2,MedAsk Tours,0,1
+Obesity Peshawar,3,Agha Khan University Hospital,0,1
+Obesity Peshawar,4,Shoukat Khanum M Hospital,0,1
+Obesity Peshawar,5,Shoukat Khanum M Hospital,0,1
+Obesity Peshawar,6,Shifa International,0,1
+Obesity Peshawar,7,E-Shifa,0,1
+Obesity Peshawar,8,All Medical Centre,0,1
+Obesity Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Obesity Peshawar,10,Rehman Medical Institute,0,1
+Obesity Peshawar,11,Hameed Latif Hospital,0,1
+Obesity Peshawar,12,Hearts International,0,1
+Obesity Peshawar,13,Doctors Hospital,0,1
+Obesity Peshawar,14,Kulsum International Hospital,0,1
+Obesity Peshawar,15,Medikay Cardiac Center,0,1
+Obesity Peshawar,16,Bahria International Hospital,0,1
+Obesity Peshawar,17,MMC General Hospital,0,1
+Obesity Peshawar,18,Northwest General Hospital,0,1
+Obesity Peshawar,19,South City Hospital,0,1
+Obesity Peshawar,20,Tabba Heart Institute,0,1
+Obesity Peshawar,21,Irfan General Hospital,0,1
+Obesity Peshawar,22,Dr. Zia uddin Hospital,0,1
+Obesity Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Obesity Peshawar,24,Hair Transplant Institute,0,1
+Obesity Peshawar,25,Cosmetic Expert Clinic,0,1
+Obesity Peshawar,26,Concept Fertility Clinic,0,1
+Obesity Peshawar,27,NIBD & BMT,0,1
+Obesity Peshawar,28,Prime Teaching Hospital,1,1
+Obesity Peshawar,29,Horizon,0,1
+Obesity Peshawar,30,Dr. Zia uddin Hospital,0,1
+Ophthalmology Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Ophthalmology Peshawar,2,MedAsk Tours,0,1
+Ophthalmology Peshawar,3,Agha Khan University Hospital,0,1
+Ophthalmology Peshawar,4,Shoukat Khanum M Hospital,0,1
+Ophthalmology Peshawar,5,Shoukat Khanum M Hospital,0,1
+Ophthalmology Peshawar,6,Shifa International,0,1
+Ophthalmology Peshawar,7,E-Shifa,0,1
+Ophthalmology Peshawar,8,All Medical Centre,0,1
+Ophthalmology Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Ophthalmology Peshawar,10,Rehman Medical Institute,0,1
+Ophthalmology Peshawar,11,Hameed Latif Hospital,0,1
+Ophthalmology Peshawar,12,Hearts International,0,1
+Ophthalmology Peshawar,13,Doctors Hospital,0,1
+Ophthalmology Peshawar,14,Kulsum International Hospital,0,1
+Ophthalmology Peshawar,15,Medikay Cardiac Center,0,1
+Ophthalmology Peshawar,16,Bahria International Hospital,0,1
+Ophthalmology Peshawar,17,MMC General Hospital,0,1
+Ophthalmology Peshawar,18,Northwest General Hospital,0,1
+Ophthalmology Peshawar,19,South City Hospital,0,1
+Ophthalmology Peshawar,20,Tabba Heart Institute,0,1
+Ophthalmology Peshawar,21,Irfan General Hospital,0,1
+Ophthalmology Peshawar,22,Dr. Zia uddin Hospital,0,1
+Ophthalmology Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Ophthalmology Peshawar,24,Hair Transplant Institute,0,1
+Ophthalmology Peshawar,25,Cosmetic Expert Clinic,0,1
+Ophthalmology Peshawar,26,Concept Fertility Clinic,0,1
+Ophthalmology Peshawar,27,NIBD & BMT,0,1
+Ophthalmology Peshawar,28,Prime Teaching Hospital,0,1
+Ophthalmology Peshawar,29,Horizon,0,1
+Ophthalmology Peshawar,30,Dr. Zia uddin Hospital,0,1
+Dentistry Peshawar,1,Pak Emirates Military Hospital (PEMH),0,1
+Dentistry Peshawar,2,MedAsk Tours,0,1
+Dentistry Peshawar,3,Agha Khan University Hospital,0,1
+Dentistry Peshawar,4,Shoukat Khanum M Hospital,0,1
+Dentistry Peshawar,5,Shoukat Khanum M Hospital,0,1
+Dentistry Peshawar,6,Shifa International,0,1
+Dentistry Peshawar,7,E-Shifa,0,1
+Dentistry Peshawar,8,All Medical Centre,0,1
+Dentistry Peshawar,9,Quaid-e-Azam International Hospital,0,1
+Dentistry Peshawar,10,Rehman Medical Institute,0,1
+Dentistry Peshawar,11,Hameed Latif Hospital,0,1
+Dentistry Peshawar,12,Hearts International,0,1
+Dentistry Peshawar,13,Doctors Hospital,0,1
+Dentistry Peshawar,14,Kulsum International Hospital,0,1
+Dentistry Peshawar,15,Medikay Cardiac Center,0,1
+Dentistry Peshawar,16,Bahria International Hospital,0,1
+Dentistry Peshawar,17,MMC General Hospital,0,1
+Dentistry Peshawar,18,Northwest General Hospital,0,1
+Dentistry Peshawar,19,South City Hospital,0,1
+Dentistry Peshawar,20,Tabba Heart Institute,0,1
+Dentistry Peshawar,21,Irfan General Hospital,0,1
+Dentistry Peshawar,22,Dr. Zia uddin Hospital,0,1
+Dentistry Peshawar,23,Peshawar Institute of Medical Sciences,0,1
+Dentistry Peshawar,24,Hair Transplant Institute,0,1
+Dentistry Peshawar,25,Cosmetic Expert Clinic,0,1
+Dentistry Peshawar,26,Concept Fertility Clinic,0,1
+Dentistry Peshawar,27,NIBD & BMT,0,1
+Dentistry Peshawar,28,Prime Teaching Hospital,1,1
+Dentistry Peshawar,29,Horizon,0,1
+Dentistry Peshawar,30,Dr. Zia uddin Hospital,0,1
+Hip Replacement Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Hip Replacement Lahore,2,MedAsk Tours,0,1
+Hip Replacement Lahore,3,Agha Khan University Hospital,0,1
+Hip Replacement Lahore,4,Shoukat Khanum M Hospital,0,1
+Hip Replacement Lahore,5,Shoukat Khanum M Hospital,0,1
+Hip Replacement Lahore,6,Shifa International,0,1
+Hip Replacement Lahore,7,E-Shifa,0,1
+Hip Replacement Lahore,8,All Medical Centre,0,1
+Hip Replacement Lahore,9,Quaid-e-Azam International Hospital,0,1
+Hip Replacement Lahore,10,Rehman Medical Institute,0,1
+Hip Replacement Lahore,11,Hameed Latif Hospital,0,1
+Hip Replacement Lahore,12,Hearts International,0,1
+Hip Replacement Lahore,13,Doctors Hospital,0,1
+Hip Replacement Lahore,14,Kulsum International Hospital,0,1
+Hip Replacement Lahore,15,Medikay Cardiac Center,0,1
+Hip Replacement Lahore,16,Bahria International Hospital,0,1
+Hip Replacement Lahore,17,MMC General Hospital,0,1
+Hip Replacement Lahore,18,Northwest General Hospital,0,1
+Hip Replacement Lahore,19,South City Hospital,0,1
+Hip Replacement Lahore,20,Tabba Heart Institute,0,1
+Hip Replacement Lahore,21,Irfan General Hospital,0,1
+Hip Replacement Lahore,22,Dr. Zia uddin Hospital,0,1
+Hip Replacement Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Hip Replacement Lahore,24,Hair Transplant Institute,0,1
+Hip Replacement Lahore,25,Cosmetic Expert Clinic,0,1
+Hip Replacement Lahore,26,Concept Fertility Clinic,0,1
+Hip Replacement Lahore,27,NIBD & BMT,0,1
+Hip Replacement Lahore,28,Prime Teaching Hospital,0,1
+Hip Replacement Lahore,29,Horizon,1,1
+Hip Replacement Lahore,30,Dr. Zia uddin Hospital,0,1
+Knee Replacement Lahore,1,Pak Emirates Military Hospital (PEMH),0,1
+Knee Replacement Lahore,2,MedAsk Tours,0,1
+Knee Replacement Lahore,3,Agha Khan University Hospital,0,1
+Knee Replacement Lahore,4,Shoukat Khanum M Hospital,0,1
+Knee Replacement Lahore,5,Shoukat Khanum M Hospital,0,1
+Knee Replacement Lahore,6,Shifa International,0,1
+Knee Replacement Lahore,7,E-Shifa,0,1
+Knee Replacement Lahore,8,All Medical Centre,0,1
+Knee Replacement Lahore,9,Quaid-e-Azam International Hospital,0,1
+Knee Replacement Lahore,10,Rehman Medical Institute,0,1
+Knee Replacement Lahore,11,Hameed Latif Hospital,0,1
+Knee Replacement Lahore,12,Hearts International,0,1
+Knee Replacement Lahore,13,Doctors Hospital,0,1
+Knee Replacement Lahore,14,Kulsum International Hospital,0,1
+Knee Replacement Lahore,15,Medikay Cardiac Center,0,1
+Knee Replacement Lahore,16,Bahria International Hospital,0,1
+Knee Replacement Lahore,17,MMC General Hospital,0,1
+Knee Replacement Lahore,18,Northwest General Hospital,0,1
+Knee Replacement Lahore,19,South City Hospital,0,1
+Knee Replacement Lahore,20,Tabba Heart Institute,0,1
+Knee Replacement Lahore,21,Irfan General Hospital,0,1
+Knee Replacement Lahore,22,Dr. Zia uddin Hospital,0,1
+Knee Replacement Lahore,23,Peshawar Institute of Medical Sciences,0,1
+Knee Replacement Lahore,24,Hair Transplant Institute,0,1
+Knee Replacement Lahore,25,Cosmetic Expert Clinic,0,1
+Knee Replacement Lahore,26,Concept Fertility Clinic,0,1
+Knee Replacement Lahore,27,NIBD & BMT,0,1
+Knee Replacement Lahore,28,Prime Teaching Hospital,0,1
+Knee Replacement Lahore,29,Horizon,1,1
+Knee Replacement Lahore,30,Dr. Zia uddin Hospital,0,1
+Multi-Disciplinary Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Multi-Disciplinary Karachi,2,MedAsk Tours,0,1
+Multi-Disciplinary Karachi,3,Agha Khan University Hospital,0,1
+Multi-Disciplinary Karachi,4,Shoukat Khanum M Hospital,0,1
+Multi-Disciplinary Karachi,5,Shoukat Khanum M Hospital,0,1
+Multi-Disciplinary Karachi,6,Shifa International,0,1
+Multi-Disciplinary Karachi,7,E-Shifa,0,1
+Multi-Disciplinary Karachi,8,All Medical Centre,0,1
+Multi-Disciplinary Karachi,9,Quaid-e-Azam International Hospital,0,1
+Multi-Disciplinary Karachi,10,Rehman Medical Institute,0,1
+Multi-Disciplinary Karachi,11,Hameed Latif Hospital,0,1
+Multi-Disciplinary Karachi,12,Hearts International,0,1
+Multi-Disciplinary Karachi,13,Doctors Hospital,0,1
+Multi-Disciplinary Karachi,14,Kulsum International Hospital,0,1
+Multi-Disciplinary Karachi,15,Medikay Cardiac Center,0,1
+Multi-Disciplinary Karachi,16,Bahria International Hospital,0,1
+Multi-Disciplinary Karachi,17,MMC General Hospital,0,1
+Multi-Disciplinary Karachi,18,Northwest General Hospital,0,1
+Multi-Disciplinary Karachi,19,South City Hospital,0,1
+Multi-Disciplinary Karachi,20,Tabba Heart Institute,0,1
+Multi-Disciplinary Karachi,21,Irfan General Hospital,0,1
+Multi-Disciplinary Karachi,22,Dr. Zia uddin Hospital,0,1
+Multi-Disciplinary Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Multi-Disciplinary Karachi,24,Hair Transplant Institute,0,1
+Multi-Disciplinary Karachi,25,Cosmetic Expert Clinic,0,1
+Multi-Disciplinary Karachi,26,Concept Fertility Clinic,0,1
+Multi-Disciplinary Karachi,27,NIBD & BMT,0,1
+Multi-Disciplinary Karachi,28,Prime Teaching Hospital,0,1
+Multi-Disciplinary Karachi,29,Horizon,0,1
+Multi-Disciplinary Karachi,30,Dr. Zia uddin Hospital,1,1
+Tertiary Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Tertiary Karachi,2,MedAsk Tours,0,1
+Tertiary Karachi,3,Agha Khan University Hospital,0,1
+Tertiary Karachi,4,Shoukat Khanum M Hospital,0,1
+Tertiary Karachi,5,Shoukat Khanum M Hospital,0,1
+Tertiary Karachi,6,Shifa International,0,1
+Tertiary Karachi,7,E-Shifa,0,1
+Tertiary Karachi,8,All Medical Centre,0,1
+Tertiary Karachi,9,Quaid-e-Azam International Hospital,0,1
+Tertiary Karachi,10,Rehman Medical Institute,0,1
+Tertiary Karachi,11,Hameed Latif Hospital,0,1
+Tertiary Karachi,12,Hearts International,0,1
+Tertiary Karachi,13,Doctors Hospital,0,1
+Tertiary Karachi,14,Kulsum International Hospital,0,1
+Tertiary Karachi,15,Medikay Cardiac Center,0,1
+Tertiary Karachi,16,Bahria International Hospital,0,1
+Tertiary Karachi,17,MMC General Hospital,0,1
+Tertiary Karachi,18,Northwest General Hospital,0,1
+Tertiary Karachi,19,South City Hospital,0,1
+Tertiary Karachi,20,Tabba Heart Institute,0,1
+Tertiary Karachi,21,Irfan General Hospital,0,1
+Tertiary Karachi,22,Dr. Zia uddin Hospital,0,1
+Tertiary Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Tertiary Karachi,24,Hair Transplant Institute,0,1
+Tertiary Karachi,25,Cosmetic Expert Clinic,0,1
+Tertiary Karachi,26,Concept Fertility Clinic,0,1
+Tertiary Karachi,27,NIBD & BMT,0,1
+Tertiary Karachi,28,Prime Teaching Hospital,0,1
+Tertiary Karachi,29,Horizon,0,1
+Tertiary Karachi,30,Dr. Zia uddin Hospital,1,1
+Care Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Care Karachi,2,MedAsk Tours,0,1
+Care Karachi,3,Agha Khan University Hospital,0,1
+Care Karachi,4,Shoukat Khanum M Hospital,0,1
+Care Karachi,5,Shoukat Khanum M Hospital,0,1
+Care Karachi,6,Shifa International,0,1
+Care Karachi,7,E-Shifa,0,1
+Care Karachi,8,All Medical Centre,0,1
+Care Karachi,9,Quaid-e-Azam International Hospital,0,1
+Care Karachi,10,Rehman Medical Institute,0,1
+Care Karachi,11,Hameed Latif Hospital,0,1
+Care Karachi,12,Hearts International,0,1
+Care Karachi,13,Doctors Hospital,0,1
+Care Karachi,14,Kulsum International Hospital,0,1
+Care Karachi,15,Medikay Cardiac Center,0,1
+Care Karachi,16,Bahria International Hospital,0,1
+Care Karachi,17,MMC General Hospital,0,1
+Care Karachi,18,Northwest General Hospital,0,1
+Care Karachi,19,South City Hospital,0,1
+Care Karachi,20,Tabba Heart Institute,0,1
+Care Karachi,21,Irfan General Hospital,0,1
+Care Karachi,22,Dr. Zia uddin Hospital,0,1
+Care Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Care Karachi,24,Hair Transplant Institute,0,1
+Care Karachi,25,Cosmetic Expert Clinic,0,1
+Care Karachi,26,Concept Fertility Clinic,0,1
+Care Karachi,27,NIBD & BMT,0,1
+Care Karachi,28,Prime Teaching Hospital,0,1
+Care Karachi,29,Horizon,0,1
+Care Karachi,30,Dr. Zia uddin Hospital,1,1
+Renal Transplant Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Renal Transplant Karachi,2,MedAsk Tours,0,1
+Renal Transplant Karachi,3,Agha Khan University Hospital,0,1
+Renal Transplant Karachi,4,Shoukat Khanum M Hospital,0,1
+Renal Transplant Karachi,5,Shoukat Khanum M Hospital,0,1
+Renal Transplant Karachi,6,Shifa International,0,1
+Renal Transplant Karachi,7,E-Shifa,0,1
+Renal Transplant Karachi,8,All Medical Centre,0,1
+Renal Transplant Karachi,9,Quaid-e-Azam International Hospital,0,1
+Renal Transplant Karachi,10,Rehman Medical Institute,0,1
+Renal Transplant Karachi,11,Hameed Latif Hospital,0,1
+Renal Transplant Karachi,12,Hearts International,0,1
+Renal Transplant Karachi,13,Doctors Hospital,0,1
+Renal Transplant Karachi,14,Kulsum International Hospital,0,1
+Renal Transplant Karachi,15,Medikay Cardiac Center,0,1
+Renal Transplant Karachi,16,Bahria International Hospital,0,1
+Renal Transplant Karachi,17,MMC General Hospital,0,1
+Renal Transplant Karachi,18,Northwest General Hospital,0,1
+Renal Transplant Karachi,19,South City Hospital,0,1
+Renal Transplant Karachi,20,Tabba Heart Institute,0,1
+Renal Transplant Karachi,21,Irfan General Hospital,0,1
+Renal Transplant Karachi,22,Dr. Zia uddin Hospital,0,1
+Renal Transplant Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Renal Transplant Karachi,24,Hair Transplant Institute,0,1
+Renal Transplant Karachi,25,Cosmetic Expert Clinic,0,1
+Renal Transplant Karachi,26,Concept Fertility Clinic,0,1
+Renal Transplant Karachi,27,NIBD & BMT,0,1
+Renal Transplant Karachi,28,Prime Teaching Hospital,0,1
+Renal Transplant Karachi,29,Horizon,0,1
+Renal Transplant Karachi,30,Dr. Zia uddin Hospital,1,1
+Spinal Cord Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Spinal Cord Karachi,2,MedAsk Tours,0,1
+Spinal Cord Karachi,3,Agha Khan University Hospital,0,1
+Spinal Cord Karachi,4,Shoukat Khanum M Hospital,0,1
+Spinal Cord Karachi,5,Shoukat Khanum M Hospital,0,1
+Spinal Cord Karachi,6,Shifa International,0,1
+Spinal Cord Karachi,7,E-Shifa,0,1
+Spinal Cord Karachi,8,All Medical Centre,0,1
+Spinal Cord Karachi,9,Quaid-e-Azam International Hospital,0,1
+Spinal Cord Karachi,10,Rehman Medical Institute,0,1
+Spinal Cord Karachi,11,Hameed Latif Hospital,0,1
+Spinal Cord Karachi,12,Hearts International,0,1
+Spinal Cord Karachi,13,Doctors Hospital,0,1
+Spinal Cord Karachi,14,Kulsum International Hospital,0,1
+Spinal Cord Karachi,15,Medikay Cardiac Center,0,1
+Spinal Cord Karachi,16,Bahria International Hospital,0,1
+Spinal Cord Karachi,17,MMC General Hospital,0,1
+Spinal Cord Karachi,18,Northwest General Hospital,0,1
+Spinal Cord Karachi,19,South City Hospital,0,1
+Spinal Cord Karachi,20,Tabba Heart Institute,0,1
+Spinal Cord Karachi,21,Irfan General Hospital,0,1
+Spinal Cord Karachi,22,Dr. Zia uddin Hospital,0,1
+Spinal Cord Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Spinal Cord Karachi,24,Hair Transplant Institute,0,1
+Spinal Cord Karachi,25,Cosmetic Expert Clinic,0,1
+Spinal Cord Karachi,26,Concept Fertility Clinic,0,1
+Spinal Cord Karachi,27,NIBD & BMT,0,1
+Spinal Cord Karachi,28,Prime Teaching Hospital,0,1
+Spinal Cord Karachi,29,Horizon,0,1
+Spinal Cord Karachi,30,Dr. Zia uddin Hospital,1,1
+Orthopedics Karachi,1,Pak Emirates Military Hospital (PEMH),0,1
+Orthopedics Karachi,2,MedAsk Tours,0,1
+Orthopedics Karachi,3,Agha Khan University Hospital,1,1
+Orthopedics Karachi,4,Shoukat Khanum M Hospital,0,1
+Orthopedics Karachi,5,Shoukat Khanum M Hospital,0,1
+Orthopedics Karachi,6,Shifa International,0,1
+Orthopedics Karachi,7,E-Shifa,0,1
+Orthopedics Karachi,8,All Medical Centre,0,1
+Orthopedics Karachi,9,Quaid-e-Azam International Hospital,0,1
+Orthopedics Karachi,10,Rehman Medical Institute,0,1
+Orthopedics Karachi,11,Hameed Latif Hospital,0,1
+Orthopedics Karachi,12,Hearts International,0,1
+Orthopedics Karachi,13,Doctors Hospital,0,1
+Orthopedics Karachi,14,Kulsum International Hospital,0,1
+Orthopedics Karachi,15,Medikay Cardiac Center,0,1
+Orthopedics Karachi,16,Bahria International Hospital,0,1
+Orthopedics Karachi,17,MMC General Hospital,0,1
+Orthopedics Karachi,18,Northwest General Hospital,0,1
+Orthopedics Karachi,19,South City Hospital,1,1
+Orthopedics Karachi,20,Tabba Heart Institute,0,1
+Orthopedics Karachi,21,Irfan General Hospital,0,1
+Orthopedics Karachi,22,Dr. Zia uddin Hospital,1,1
+Orthopedics Karachi,23,Peshawar Institute of Medical Sciences,0,1
+Orthopedics Karachi,24,Hair Transplant Institute,0,1
+Orthopedics Karachi,25,Cosmetic Expert Clinic,0,1
+Orthopedics Karachi,26,Concept Fertility Clinic,0,1
+Orthopedics Karachi,27,NIBD & BMT,0,1
+Orthopedics Karachi,28,Prime Teaching Hospital,0,1
+Orthopedics Karachi,29,Horizon,0,1
+Orthopedics Karachi,30,Dr. Zia uddin Hospital,0,1
