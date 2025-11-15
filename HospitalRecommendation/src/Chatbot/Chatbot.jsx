@@ -258,25 +258,35 @@ function Chatbot() {
 
       {/* Metrics Display Modal */}
       {showMetrics && metrics && (
-        <div className="metrics-modal">
-          <h3>System Performance Metrics</h3>
-          <div className="metric-item">
-            <strong>Precision:</strong> <span className="metric-value">{metrics.precision}</span>
-          </div>
-          <div className="metric-item">
-            <strong>Recall:</strong> <span className="metric-value">{metrics.recall}</span>
-          </div>
-          <div className="metric-item">
-            <strong>F1 Score:</strong> <span className="metric-value">{metrics.f1}</span>
-          </div>
-          <button 
-            onClick={() => setShowMetrics(false)}
-            className="close-metrics-btn"
-          >
-            Close
-          </button>
-        </div>
-      )}
+  <div className="metrics-modal-overlay">
+    <div className="metrics-modal">
+      <h3>System Performance Metrics</h3>
+
+      <div className="metric-item">
+        <strong>Precision:</strong>
+        <span className="metric-value">{metrics.precision}</span>
+      </div>
+
+      <div className="metric-item">
+        <strong>Recall:</strong>
+        <span className="metric-value">{metrics.recall}</span>
+      </div>
+
+      <div className="metric-item">
+        <strong>F1 Score:</strong>
+        <span className="metric-value">{metrics.f1}</span>
+      </div>
+
+      <button 
+        onClick={() => setShowMetrics(false)}
+        className="close-button"
+      >
+        ×
+      </button>
+    </div>
+  </div>
+)}
+
     </>
   );
 }

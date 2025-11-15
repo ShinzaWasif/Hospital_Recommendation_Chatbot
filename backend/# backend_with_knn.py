@@ -30,7 +30,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import LabelEncoder
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import precision_score, recall_score, f1_score  
+from sklearn.metrics import precision_score, recall_score, f1_score   # <-- add this line
 
 
 
@@ -236,7 +236,7 @@ def metrics():
     Reads labels.csv -> query,hospital_index,label
     Computes Precision / Recall / F1
     """
-    df = pd.read_csv("labels3.csv")   # file placed alongside app.py
+    df = pd.read_csv("labels.csv")   # file placed alongside app.py
     y_true = df["label"].values
     y_pred = np.ones_like(y_true)    # naive baseline: predict 1 for every record
     precision = precision_score(y_true, y_pred, zero_division=0)

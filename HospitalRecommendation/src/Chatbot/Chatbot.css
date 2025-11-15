@@ -664,6 +664,7 @@ html {
   margin: 8px 0;
   border-left: 3px solid #dee2e6;
   transition: all 0.2s ease;
+  color: #495057;
 }
 
 .metric-item:hover {
